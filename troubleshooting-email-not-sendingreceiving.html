@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="" />
+    <title>Troubleshooting: Email not sending/receiving</title>
+                    <link rel="canonical" href="troubleshooting-email-not-sendingreceiving.html" />
+    
+    <meta name="description"
+          content="Having trouble with your email not sending or receiving? Don't worry, we've got you covered! In this blog post, we'll walk you through the troubleshooting steps to resolve this frustrating issue. Our easy-to-follow guide, written in plain English, will help you understand the common causes and practical solutions for email problems. Say goodbye to the headaches and start enjoying a seamless email experience again!"/>
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+<link href="home/css/quill.core.css" rel="stylesheet" />
+    <link href="article/css/styles.css" rel="stylesheet" />
+    
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <style>
+        h3 {
+            font-size: 24px !important;
+        }
+        p{
+            margin-bottom: 28px !important;
+        }
+        .bg-header {
+            --bs-bg-opacity: 1;
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),#000000) !important;
+        }
+        .bg-footer {
+            --bs-bg-opacity: 1;
+        background-image: linear-gradient(#000000,#000000) !important;
+        }
+        .header-text-color{
+        color: #ffffff ;
+        }
+        .footer-text-color{
+        color: #ffffff ;
+        }
+ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+            font-weight: 500 !important;
+        }
+        body {
+                    background-color: #292921;
+                }
+
+                .transparent-layer{
+                        background-color: rgba(NaN, 0 ,0, 0) !important;
+
+                    }
+                    .header-transparent-layer {
+                    background-color: rgba(NaN, 0 ,0, 0) !important;
+
+                    }
+
+                .all-article-link{
+                    background-color:  #f1b914 !important;
+                    color:  #000000 !important;
+                    border: 1px solid #d6b914 !important;
+                }
+
+                .bg-dark, .bg-header, .bg-footer, .dropdown-content2 {
+                    background-color:  #1f1d17 !important;
+                    background-image: none;
+                }
+
+                .top-header {
+                    background-color:  undefined !important;
+
+                    background-image: none;
+                }
+                .lmcy_hfollow, .top-header a, .top-header li{
+                color:  undefined !important;
+                }
+
+
+
+                .bg-dark, .navbar-brand, .bottom_footer_menu_text, .bottom_footer_menu_text li a{
+                    color: #f1b914 !important;
+                }
+
+                .lmcy_logo_n {
+                    color: #f1b914 !important;
+                }
+                .lmcy_header_magazine_style.lmcy_cus_top_share.header_layout_style3_custom .social_icon_header_top li a i{
+                color: undefined !important;
+                }
+
+                .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+                    color: #f1b914;
+                }
+
+                footer .social-link {
+                    color: #1f1d17 !important;
+                    background-color: #f1b914 !important;
+                }
+                .jlm_w span{
+                    background:#f1b914;
+                }
+                .jlm_w span:hover{
+                    background:#ffffff;
+                }
+
+
+                .navbar-dark .navbar-nav .nav-link,
+                .dropdown-content a,
+                footer.py-5.bg-dark.text-center p,
+                footer.py-5.bg-dark.text-center a,
+                footer.py-5.bg-dark.text-center a:hover,
+                footer.py-5.bg-dark.text-center a:focus,
+                footer.py-5.bg-dark.text-center a:focus-visible, .header-text-color {
+                    color: #f1b914;
+                }
+
+                .navbar-dark .navbar-nav .nav-link:hover,
+                .bd_left:hover,
+                .dropdown-content li:hover,
+                .navbar-dark .navbar-nav .nav-link:focus {
+                    color: #ffffff;
+                }
+                .head-title {
+                    color: #f1b914 !important;
+                }
+                .head-tagline {
+                    color: #f1b914;
+                }
+
+                footer.py-5.bg-dark.text-center, .footer-text-color {
+                    color: #f1b914 !important;
+                }
+
+                .pre-footer, .pre-footer a{
+                    background-color: #151516 !important;
+                    color: #b5b5b5 !important;
+                }
+
+                .text-theme,
+                a.text-theme:focus,
+                a.text-theme:hover {
+                    color: #f1b914 !important;
+                }
+
+                .btn-banner-theme {
+                    color: undefined;
+                    background-color: #f1b914;
+                    border-color: #f1b914;
+                }
+
+                .btn-banner-theme:hover {
+                    color: #ffffff;
+                    background-color: #3e3d33;
+                }
+
+                .btn-theme {
+                    color: #000000;
+                    background-color: #f1b914;
+                    border-color: #f1b914;
+                }
+
+                .btn-theme:hover {
+                    color: #ffffff;
+                    background-color: #3e3d33;
+                }
+
+
+                .card-title, .card-heading {
+                    color: #ffffff;
+                }
+
+                .main-heading {
+                    color: #f1b914;
+                }
+
+                .card-text {
+                    color: #ffffff!important;
+                    height: auto !important;
+                    min-height: 140px;
+                }
+.card-text p {
+                    color: #ffffff!important;
+                    
+                }
+                .article-card-text, .article-card-text p, .article-card-text h1, .article-card-text h2, .article-card-text h3, .article-card-text h4, .article-card-text h5 {
+                    color: #b5b5b5 !important;
+
+                }
+.article-card-text * {
+                    color: #B5B5B5 !important;
+                   background: none !important;
+                }
+                .article-container {
+                    background-color: #3e3d33;
+                    padding : 10px;
+
+                }
+
+                .cards-container .card {
+                    background-color: #1d1c19 !important;
+                    border: 2px solid #12110e !important;
+                    border-radius: 14px;
+                }
+
+                .cards-container .card .card-title {
+                    color: #ffffff;
+                }
+
+                .cards-container .card .card-text {
+                    color: #bbbbbb!important;
+                }
+                .article-info {
+                    color: #bbbbbb;
+                }
+    </style>
+</head>
+<body>
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a style="color: inherit; text-decoration: inherit;" href="index.html">
+            <span class="navbar-brand"><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></span>
+            <span class="navbar-brand header-text-color">t-500</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="display: none">
+                <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-facebook"></i></a></li>
+                <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-twitter"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Content-->
+<section class="pt-4 article-container">
+    <header class="py-2 border-bottom mb-4" style="display: none">
+        <div class="container ql-editor article-card-text" id="sitewide-header" >
+            
+        </div>
+    </header>
+    <div class="container px-lg-5">
+        <!-- Page Features-->
+        <div class="row gx-lg-5">
+            <!-- Header-->
+        <header class="py-5">
+            <div class="container px-lg-5">
+                <div class="p-4 p-lg-5 rounded-3 text-center cards-container">
+                    <img class="card-img-top" src="troubleshooting-email-not-sendingreceiving-122842.jpg?key=74OPi1" alt="Troubleshooting: Email not sending/receiving" />
+                </div>
+            </div>
+        </header>
+        <!-- Content section 1-->
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 article-card-text">
+                        <h1 class="main-heading">Troubleshooting: Email not sending/receiving</h1>
+                        <div class="small article-info"></div>
+                        <div class="article-info fst-italic mb-2">2024-02-13</div>
+                        <p class=""><h3 class=''>Table Of Contents</h3><div><a href='#Identifying the Issue: Emails Stuck in Limbo'>Identifying the Issue: Emails Stuck in Limbo</a></div><div><a href='#Understanding the Problem: Frustrations with Email Delivery'>Understanding the Problem: Frustrations with Email Delivery</a></div><div><a href='#Unveiling the Mystery: Diagnosing Email Sending/Receiving Failures'>Unveiling the Mystery: Diagnosing Email Sending/Receiving Failures</a></div><div><a href='#Resolving Connectivity Hurdles: Getting Emails back on Track'>Resolving Connectivity Hurdles: Getting Emails back on Track</a></div><div><a href='#Tackling Technical Glitches: Troubleshooting Email Delivery Woes'>Tackling Technical Glitches: Troubleshooting Email Delivery Woes</a></div><div><a href='#Overcoming Blockages: Strategies for Fixing Email Sending/Receiving Issues'>Overcoming Blockages: Strategies for Fixing Email Sending/Receiving Issues</a></div><br/><h2 id="Identifying the Issue: Emails Stuck in Limbo">Identifying the Issue: Emails Stuck in Limbo</h2><p>Identifying the Issue: Emails Stuck in Limbo<br/><br/>In the vast digital realm of communication, email has become an essential tool for both personal and professional purposes. But what happens when an email refuses to budge from its virtual limbo and fails to reach its intended destination? This frustrating scenario can leave us questioning what went wrong and how to fix it.<br/><br/>When emails get stuck in limbo, it often indicates an issue with the delivery process. There can be several reasons behind this perplexing situation. One common culprit is an overloaded mailbox, where an excessive number of emails have accumulated, causing a slowdown in the overall email flow. Another possibility is a misconfigured email server or a problematic internet connection, hindering the smooth transmission of messages. By identifying these issues early on, we can delve deeper into the problem and find the appropriate solutions.</p><h2 id="Understanding the Problem: Frustrations with Email Delivery">Understanding the Problem: Frustrations with Email Delivery</h2><p>Understanding the Problem: Frustrations with Email Delivery<br/><br/>Email has become an indispensable tool for communication in our personal and professional lives. However, there are times when email delivery can be a source of frustration. Whether it's experiencing delays in sending or receiving emails, or worse, having them disappear into the void, these issues can be both inconvenient and worrisome.<br/><br/>One common cause of frustration is when emails get stuck in limbo, never reaching their intended recipients. This can happen for a variety of reasons, such as server issues, incorrect email addresses, or even spam filters that mistakenly mark legitimate emails as junk. It's not only frustrating for the sender, but also for the recipient who is left wondering why they haven't received an expected message. Understanding the reasons behind email delivery failures is crucial in order to resolve the issue and ensure smooth communication.</p><h2 id="Unveiling the Mystery: Diagnosing Email Sending/Receiving Failures">Unveiling the Mystery: Diagnosing Email Sending/Receiving Failures</h2><p>When it comes to diagnosing email sending and receiving failures, it can be a challenging task. There are several factors that could contribute to these issues, making it important to delve into each possibility in order to find the root cause. One common problem is incorrect email settings. This could be a result of entering the wrong server address, using the wrong port number, or even having incorrect login credentials. Double-checking these settings and ensuring they are accurate can often resolve email delivery failures.<br/><br/>Another potential cause of email sending and receiving failures is a full mailbox. If the recipient's mailbox is full, incoming emails may bounce back or get stuck in limbo. On the sender's end, if their mailbox is full, outgoing emails may fail to send. In such cases, it's important to check the storage capacity of the mailbox and delete any unnecessary emails to free up space.</p><h2 id="Resolving Connectivity Hurdles: Getting Emails back on Track">Resolving Connectivity Hurdles: Getting Emails back on Track</h2><p>Resolving Connectivity Hurdles: Getting Emails back on Track<br/><br/>In today's fast-paced world, email is an essential communication tool. However, there are times when you may encounter connectivity hurdles that prevent your emails from being sent or received. Don't panic! With a calm and focused approach, you can get your emails back on track and ensure smooth communication.<br/><br/>The first step in resolving connectivity issues is to check your internet connection. Ensure that you are connected to a stable and reliable network. Sometimes, a simple network reset can do the trick. Restart your router or modem and see if it resolves the problem. If not, you may need to contact your internet service provider to troubleshoot any connectivity issues on their end. Remember, a strong and uninterrupted internet connection is crucial for seamless email sending and receiving.</p><h2 id="Tackling Technical Glitches: Troubleshooting Email Delivery Woes">Tackling Technical Glitches: Troubleshooting Email Delivery Woes</h2><p>Email delivery woes can be frustrating and time-consuming. When you encounter technical glitches that prevent your emails from being sent or received, it's important to tackle the issue head-on. One common problem that may arise is incorrect server settings. Double-checking and ensuring that the incoming and outgoing server details are accurate is crucial. Sometimes, simply reconfiguring these settings can resolve the issue and get your emails back on track.<br/><br/>Another potential glitch could be related to spam filters. These filters are in place to protect users from unwanted or malicious emails, but occasionally they can be too strict and block legitimate messages. If you suspect that this might be the case, consider checking your spam or junk folder for any emails that might have been wrongly marked as spam. Adjusting the spam filter settings in your email client can also help ensure that important messages are not blocked or sent directly to the spam folder. By properly addressing these technical glitches, you can troubleshoot email delivery woes and ensure that your messages reach their intended recipients without any further hurdles.</p><h2 id="Overcoming Blockages: Strategies for Fixing Email Sending/Receiving Issues">Overcoming Blockages: Strategies for Fixing Email Sending/Receiving Issues</h2><p>When faced with email sending/receiving issues, it can be incredibly frustrating. However, there are a few strategies you can employ to overcome these blockages and get your email back on track. One effective method is to check your email settings and ensure that they are properly configured. Sometimes, simple mistakes or misconfigurations can prevent emails from being sent or received. Double-check that your incoming and outgoing server settings are correct, and that your username and password are entered accurately. By ensuring that your settings are properly set up, you can eliminate one potential cause of email blockages.<br/><br/>Another strategy for resolving email sending/receiving issues is to check your internet connection. A poor or unstable connection can disrupt the sending and receiving of emails. Make sure that you are connected to a stable and reliable internet network and try restarting your modem and router. Additionally, you can try connecting to a different network, such as using your mobile data or accessing a public Wi-Fi network. By addressing any connectivity issues, you can improve the chances of successfully sending and receiving emails.</p></p>
+                        <hr /><h3>Related Links</h3><a class="text-theme" href="how-to-fix-email-sending-issues.html">How to fix email sending issues</a><br /><a class="text-theme" href="common-reasons-for-email-sendingreceiving-issues.html">Common reasons for email sending/receiving issues</a><br />
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        <div class="clearfix"></div>
+        <br>
+        <br>
+        <div class="container px-5">
+            <div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container mb-4 ql-editor article-card-text" id="sitewide-footer" style="display:none">
+        
+    </div>
+</section>
+<div class="py-5 bg-gray-200 text-muted pre-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mb-5 mb-lg-0">
+                <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
+                    <a href="terms.html">Terms of Use</a>
+                </div>
+
+                <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
+                    <a href="privacy.html">Privacy Policy</a>
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <h6 style=" display: none" class="text-uppercase text-dark mb-3">
+                    <a href="sitemap.html">Sitemap</a>
+                </h6>
+
+                <h6 style=" display: inherit" class="text-uppercase text-dark mb-3">
+                    <a href="contact.html">Contact Us!</a>
+                </h6>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer-->
+<footer class="py-5 bg-dark text-center">
+    
+    <div class="container mb-4"><p class="m-0 text-center ">
+        <span class="navbar-brand" ><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></span>
+        <span class="navbar-brand">t-500</span>
+    </p></div>
+    <ul class="list-inline mb-4" style="display: none">
+        <li class="list-inline-item" style="display: none">
+            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a>
+        </li>
+    </ul>
+    <div class="container"><p class="m-0 text-center">Copyright &copy; t-500. All rights reserved.</p></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<script>
+    const url = window.location.href;
+    let domain = (new URL(url));
+    let hostname = domain.hostname;
+    let pathname = domain.pathname.split('/');
+    let protocol = domain.protocol;
+     let domain_url =  protocol +'//'+hostname+'/';
+    if(pathname.length > 2){
+        domain_url =  domain_url +pathname.slice(1,pathname.length - 1).join('/')+'/'+document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }else{
+        domain_url =  domain_url +document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }
+    document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
+</script>
+</body>
+</html>

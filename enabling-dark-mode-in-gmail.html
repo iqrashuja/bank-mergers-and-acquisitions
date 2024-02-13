@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="" />
+    <title>Enabling Dark Mode in Gmail</title>
+                    <link rel="canonical" href="enabling-dark-mode-in-gmail.html" />
+    
+    <meta name="description"
+          content="Discover how to enable dark mode in Gmail and give your inbox a sleek, stylish makeover. Dive into our step-by-step guide and learn how to effortlessly switch to the dark side, enhancing readability, reducing eye strain, and adding a touch of sophistication to your email experience. Unleash the power of this eye-catching feature and revolutionize your Gmail usage today!"/>
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+<link href="home/css/quill.core.css" rel="stylesheet" />
+    <link href="article/css/styles.css" rel="stylesheet" />
+    
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <style>
+        h3 {
+            font-size: 24px !important;
+        }
+        p{
+            margin-bottom: 28px !important;
+        }
+        .bg-header {
+            --bs-bg-opacity: 1;
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),#000000) !important;
+        }
+        .bg-footer {
+            --bs-bg-opacity: 1;
+        background-image: linear-gradient(#000000,#000000) !important;
+        }
+        .header-text-color{
+        color: #ffffff ;
+        }
+        .footer-text-color{
+        color: #ffffff ;
+        }
+ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+            font-weight: 500 !important;
+        }
+        body {
+                    background-color: #292921;
+                }
+
+                .transparent-layer{
+                        background-color: rgba(NaN, 0 ,0, 0) !important;
+
+                    }
+                    .header-transparent-layer {
+                    background-color: rgba(NaN, 0 ,0, 0) !important;
+
+                    }
+
+                .all-article-link{
+                    background-color:  #f1b914 !important;
+                    color:  #000000 !important;
+                    border: 1px solid #d6b914 !important;
+                }
+
+                .bg-dark, .bg-header, .bg-footer, .dropdown-content2 {
+                    background-color:  #1f1d17 !important;
+                    background-image: none;
+                }
+
+                .top-header {
+                    background-color:  undefined !important;
+
+                    background-image: none;
+                }
+                .lmcy_hfollow, .top-header a, .top-header li{
+                color:  undefined !important;
+                }
+
+
+
+                .bg-dark, .navbar-brand, .bottom_footer_menu_text, .bottom_footer_menu_text li a{
+                    color: #f1b914 !important;
+                }
+
+                .lmcy_logo_n {
+                    color: #f1b914 !important;
+                }
+                .lmcy_header_magazine_style.lmcy_cus_top_share.header_layout_style3_custom .social_icon_header_top li a i{
+                color: undefined !important;
+                }
+
+                .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+                    color: #f1b914;
+                }
+
+                footer .social-link {
+                    color: #1f1d17 !important;
+                    background-color: #f1b914 !important;
+                }
+                .jlm_w span{
+                    background:#f1b914;
+                }
+                .jlm_w span:hover{
+                    background:#ffffff;
+                }
+
+
+                .navbar-dark .navbar-nav .nav-link,
+                .dropdown-content a,
+                footer.py-5.bg-dark.text-center p,
+                footer.py-5.bg-dark.text-center a,
+                footer.py-5.bg-dark.text-center a:hover,
+                footer.py-5.bg-dark.text-center a:focus,
+                footer.py-5.bg-dark.text-center a:focus-visible, .header-text-color {
+                    color: #f1b914;
+                }
+
+                .navbar-dark .navbar-nav .nav-link:hover,
+                .bd_left:hover,
+                .dropdown-content li:hover,
+                .navbar-dark .navbar-nav .nav-link:focus {
+                    color: #ffffff;
+                }
+                .head-title {
+                    color: #f1b914 !important;
+                }
+                .head-tagline {
+                    color: #f1b914;
+                }
+
+                footer.py-5.bg-dark.text-center, .footer-text-color {
+                    color: #f1b914 !important;
+                }
+
+                .pre-footer, .pre-footer a{
+                    background-color: #151516 !important;
+                    color: #b5b5b5 !important;
+                }
+
+                .text-theme,
+                a.text-theme:focus,
+                a.text-theme:hover {
+                    color: #f1b914 !important;
+                }
+
+                .btn-banner-theme {
+                    color: undefined;
+                    background-color: #f1b914;
+                    border-color: #f1b914;
+                }
+
+                .btn-banner-theme:hover {
+                    color: #ffffff;
+                    background-color: #3e3d33;
+                }
+
+                .btn-theme {
+                    color: #000000;
+                    background-color: #f1b914;
+                    border-color: #f1b914;
+                }
+
+                .btn-theme:hover {
+                    color: #ffffff;
+                    background-color: #3e3d33;
+                }
+
+
+                .card-title, .card-heading {
+                    color: #ffffff;
+                }
+
+                .main-heading {
+                    color: #f1b914;
+                }
+
+                .card-text {
+                    color: #ffffff!important;
+                    height: auto !important;
+                    min-height: 140px;
+                }
+.card-text p {
+                    color: #ffffff!important;
+                    
+                }
+                .article-card-text, .article-card-text p, .article-card-text h1, .article-card-text h2, .article-card-text h3, .article-card-text h4, .article-card-text h5 {
+                    color: #b5b5b5 !important;
+
+                }
+.article-card-text * {
+                    color: #B5B5B5 !important;
+                   background: none !important;
+                }
+                .article-container {
+                    background-color: #3e3d33;
+                    padding : 10px;
+
+                }
+
+                .cards-container .card {
+                    background-color: #1d1c19 !important;
+                    border: 2px solid #12110e !important;
+                    border-radius: 14px;
+                }
+
+                .cards-container .card .card-title {
+                    color: #ffffff;
+                }
+
+                .cards-container .card .card-text {
+                    color: #bbbbbb!important;
+                }
+                .article-info {
+                    color: #bbbbbb;
+                }
+    </style>
+</head>
+<body>
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a style="color: inherit; text-decoration: inherit;" href="index.html">
+            <span class="navbar-brand"><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></span>
+            <span class="navbar-brand header-text-color">t-500</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="display: none">
+                <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-facebook"></i></a></li>
+                <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-twitter"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Content-->
+<section class="pt-4 article-container">
+    <header class="py-2 border-bottom mb-4" style="display: none">
+        <div class="container ql-editor article-card-text" id="sitewide-header" >
+            
+        </div>
+    </header>
+    <div class="container px-lg-5">
+        <!-- Page Features-->
+        <div class="row gx-lg-5">
+            <!-- Header-->
+        <header class="py-5">
+            <div class="container px-lg-5">
+                <div class="p-4 p-lg-5 rounded-3 text-center cards-container">
+                    <img class="card-img-top" src="enabling-dark-mode-in-gmail-122663.jpg?key=u8LhwE" alt="Enabling Dark Mode in Gmail" />
+                </div>
+            </div>
+        </header>
+        <!-- Content section 1-->
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 article-card-text">
+                        <h1 class="main-heading">Enabling Dark Mode in Gmail</h1>
+                        <div class="small article-info"></div>
+                        <div class="article-info fst-italic mb-2">2024-02-13</div>
+                        <p class=""><h3 class=''>Table Of Contents</h3><div><a href='#How to Activate Dark Mode in Gmail'>How to Activate Dark Mode in Gmail</a></div><div><a href='#Customizing Your Gmail Interface with Dark Mode'>Customizing Your Gmail Interface with Dark Mode</a></div><div><a href='#Enhancing Your Email Experience with Dark Mode in Gmail'>Enhancing Your Email Experience with Dark Mode in Gmail</a></div><div><a href='#Making Gmail Easier on the Eyes with Dark Mode'>Making Gmail Easier on the Eyes with Dark Mode</a></div><div><a href='#A StepbyStep Guide to Enabling Dark Mode in Gmail'>A StepbyStep Guide to Enabling Dark Mode in Gmail</a></div><div><a href='#Exploring the Benefits of Using Dark Mode in Gmail'>Exploring the Benefits of Using Dark Mode in Gmail</a></div><br/><h2 id="How to Activate Dark Mode in Gmail">How to Activate Dark Mode in Gmail</h2><p>To activate Dark Mode in Gmail, follow these simple steps:<br/><br/>1. Access Gmail Settings: Start by opening your Gmail inbox and click on the cogwheel icon at the top right corner of the screen. This will open the Settings menu, where you can customize various aspects of your Gmail experience.<br/><br/>2. Navigate to Theme Settings: In the Settings menu, you'll find a list of different options to choose from. Scroll down until you see the "Themes" section and click on it. This will open a variety of themes and customization options for your Gmail interface.<br/><br/>3. Choose a Dark Theme: Within the Themes section, you'll find a collection of different themes to select from. Look for the Dark theme option and click on it. This will instantly change the appearance of your Gmail interface to a darker, more eye-friendly version.<br/><br/>4. Save and Enjoy: Once you have selected the Dark theme, don't forget to scroll down to the bottom of the page and click on the "Save Changes" button. This will apply the Dark Mode to your Gmail account, making it easier on your eyes during long hours of browsing and enhancing your overall email experience.<br/><br/>By activating Dark Mode in Gmail, you can personalize your inbox and reduce eye strain, especially when using Gmail in low-light environments. Enjoy a sleek and visually appealing interface while maintaining productivity and efficiency in managing your emails.</p><h2 id="Customizing Your Gmail Interface with Dark Mode">Customizing Your Gmail Interface with Dark Mode</h2><p>Customizing Your Gmail Interface with Dark Mode<br/><br/>Dark mode has become increasingly popular among users for its sleek and aesthetically pleasing appearance. When it comes to Gmail, customizing your interface with dark mode can effortlessly transform your email experience. The ability to switch from the traditional bright white background to a dark color scheme can not only enhance the overall look of your Gmail, but also provide a more comfortable viewing experience for those who spend countless hours staring at their inbox.<br/><br/>Enabling dark mode in Gmail is a simple and hassle-free process. Once activated, the interface will display a palette of dark gray and black tones, making it easier on the eyes, especially in low-light conditions. In addition to the visual appeal, dark mode also offers practical benefits such as reduced eye strain and improved battery life for devices with OLED screens. Whether you're working late into the night or simply prefer a more muted color scheme, customizing your Gmail interface with dark mode can greatly enhance your overall email management experience.</p><h2 id="Enhancing Your Email Experience with Dark Mode in Gmail">Enhancing Your Email Experience with Dark Mode in Gmail</h2><p>Dark Mode in Gmail not only enhances the visual appeal of your email interface, but also provides a more comfortable and immersive email experience. The dark background reduces the amount of light emitted by your screen, making it easier on the eyes, especially in low light settings. This can help alleviate eye strain and fatigue, allowing you to browse through your emails for longer periods without discomfort. Furthermore, the dark color scheme can also help conserve battery life on devices with OLED or AMOLED displays, as these screens do not require as much power to display dark pixels.<br/><br/>In addition to the aesthetic benefits, Dark Mode in Gmail also improves focus and concentration while processing your emails. The dark background acts as a canvas that highlights the content of your messages, allowing you to concentrate on the text and images without distractions. This can be particularly helpful when reviewing lengthy emails or when working in a busy environment where visual clutter can be overwhelming. Furthermore, the reduced brightness of the dark mode interface can help minimize distractions from other elements on your screen, helping you stay focused on the task at hand.</p><h2 id="Making Gmail Easier on the Eyes with Dark Mode">Making Gmail Easier on the Eyes with Dark Mode</h2><p>Making Gmail Easier on the Eyes with Dark Mode<br/><br/>Dark Mode in Gmail not only enhances the overall aesthetic of your email interface, but it also offers several benefits that make using Gmail easier on the eyes. By specifically designing the interface to display darker colors, Dark Mode reduces the amount of bright, white light emitted from your screen. This can help minimize eye strain, especially during late-night email sessions or in low-light environments. With the dark-themed background and text, reading and composing emails become more comfortable as the contrast is less harsh on the eyes.<br/><br/>Furthermore, Dark Mode in Gmail also helps extend your device's battery life, especially if you are using a device with an OLED or AMOLED screen. Since these screen technologies display true blacks by turning off individual pixels, toggling to Dark Mode in Gmail means fewer pixels are illuminated, resulting in lower power consumption. This can be particularly advantageous for users who rely heavily on their email throughout the day, as it allows them to optimize their device's battery usage and reduce the need for frequent charging.</p><h2 id="A StepbyStep Guide to Enabling Dark Mode in Gmail">A StepbyStep Guide to Enabling Dark Mode in Gmail</h2><p>Now that you understand the benefits of using Dark Mode in Gmail, let's dive into the step-by-step guide to enable this feature. <br/><br/>1. Open Gmail: To begin, open the Gmail app on your mobile device or access your Gmail account through your web browser. Make sure you are signed in to your account before proceeding to the next step. <br/><br/>2. Go to Settings: Look for the settings icon, usually represented by a gear or cogwheel, and click on it. A dropdown menu will appear with various options. Scroll down until you find the "Themes" option and select it. <br/><br/>3. Choose a Theme: In the Themes section, you'll find several predefined themes to choose from. Look for the dark-themed options, such as "Dark" or "Night." Click on the desired theme to activate it. <br/><br/>4. Save Changes: After selecting the dark theme, scroll down to the bottom of the Themes section and click on the "Save" button. Your changes will be applied, and Gmail will now have a dark interface. <br/><br/>Congratulations! You have successfully enabled Dark Mode in Gmail. Enjoy the visually appealing and eye-friendly experience while managing your emails.</p><h2 id="Exploring the Benefits of Using Dark Mode in Gmail">Exploring the Benefits of Using Dark Mode in Gmail</h2><p>Exploring the Benefits of Using Dark Mode in Gmail<br/><br/>Dark Mode has gained popularity in recent years, and for good reason. Its sleek and stylish appearance not only adds a touch of elegance to your Gmail interface but also offers various advantages. One of the key benefits of using Dark Mode in Gmail is its ability to reduce eye strain. The dark background with lighter text is more comfortable for the eyes, especially when using Gmail for extended periods. Whether you're plowing through a plethora of work emails or simply catching up with friends and family, Dark Mode provides a visually soothing experience, allowing you to focus without straining your eyes.<br/><br/>Another advantage of Dark Mode in Gmail is its potential to save battery life on certain devices. Since darker pixels require less power than bright ones, enabling Dark Mode can help conserve battery on devices with OLED or AMOLED screens. This feature can be particularly useful for users who depend on their mobile devices for email communication throughout the day. By activating Dark Mode, you not only enhance the aesthetic appeal of your Gmail interface but also optimize the battery life of your device, ensuring that you can stay connected for longer periods without the need to recharge frequently.</p></p>
+                        <hr /><h3>Related Links</h3><a class="text-theme" href="customizing-the-layout-of-gmail.html">Customizing the Layout of Gmail</a><br /><a class="text-theme" href="adjusting-font-and-text-size-in-gmail.html">Adjusting Font and Text Size in Gmail</a><br />
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        <div class="clearfix"></div>
+        <br>
+        <br>
+        <div class="container px-5">
+            <div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container mb-4 ql-editor article-card-text" id="sitewide-footer" style="display:none">
+        
+    </div>
+</section>
+<div class="py-5 bg-gray-200 text-muted pre-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mb-5 mb-lg-0">
+                <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
+                    <a href="terms.html">Terms of Use</a>
+                </div>
+
+                <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
+                    <a href="privacy.html">Privacy Policy</a>
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <h6 style=" display: none" class="text-uppercase text-dark mb-3">
+                    <a href="sitemap.html">Sitemap</a>
+                </h6>
+
+                <h6 style=" display: inherit" class="text-uppercase text-dark mb-3">
+                    <a href="contact.html">Contact Us!</a>
+                </h6>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer-->
+<footer class="py-5 bg-dark text-center">
+    
+    <div class="container mb-4"><p class="m-0 text-center ">
+        <span class="navbar-brand" ><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></span>
+        <span class="navbar-brand">t-500</span>
+    </p></div>
+    <ul class="list-inline mb-4" style="display: none">
+        <li class="list-inline-item" style="display: none">
+            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a>
+        </li>
+    </ul>
+    <div class="container"><p class="m-0 text-center">Copyright &copy; t-500. All rights reserved.</p></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<script>
+    const url = window.location.href;
+    let domain = (new URL(url));
+    let hostname = domain.hostname;
+    let pathname = domain.pathname.split('/');
+    let protocol = domain.protocol;
+     let domain_url =  protocol +'//'+hostname+'/';
+    if(pathname.length > 2){
+        domain_url =  domain_url +pathname.slice(1,pathname.length - 1).join('/')+'/'+document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }else{
+        domain_url =  domain_url +document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }
+    document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
+</script>
+</body>
+</html>

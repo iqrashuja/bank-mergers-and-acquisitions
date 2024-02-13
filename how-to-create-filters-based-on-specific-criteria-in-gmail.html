@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="" />
+    <title>How to create filters based on specific criteria in Gmail</title>
+                    <link rel="canonical" href="how-to-create-filters-based-on-specific-criteria-in-gmail.html" />
+    
+    <meta name="description"
+          content="Learn how to effortlessly organize your Gmail inbox with customized filters! Our blog post walks you through the simple steps to create filters based on specific criteria. Say goodbye to clutter and hello to a streamlined email experience. Start organizing your Gmail today!"/>
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+<link href="home/css/quill.core.css" rel="stylesheet" />
+    <link href="article/css/styles.css" rel="stylesheet" />
+    
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <style>
+        h3 {
+            font-size: 24px !important;
+        }
+        p{
+            margin-bottom: 28px !important;
+        }
+        .bg-header {
+            --bs-bg-opacity: 1;
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),#000000) !important;
+        }
+        .bg-footer {
+            --bs-bg-opacity: 1;
+        background-image: linear-gradient(#000000,#000000) !important;
+        }
+        .header-text-color{
+        color: #ffffff ;
+        }
+        .footer-text-color{
+        color: #ffffff ;
+        }
+ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+            font-weight: 500 !important;
+        }
+        body {
+                    background-color: #292921;
+                }
+
+                .transparent-layer{
+                        background-color: rgba(NaN, 0 ,0, 0) !important;
+
+                    }
+                    .header-transparent-layer {
+                    background-color: rgba(NaN, 0 ,0, 0) !important;
+
+                    }
+
+                .all-article-link{
+                    background-color:  #f1b914 !important;
+                    color:  #000000 !important;
+                    border: 1px solid #d6b914 !important;
+                }
+
+                .bg-dark, .bg-header, .bg-footer, .dropdown-content2 {
+                    background-color:  #1f1d17 !important;
+                    background-image: none;
+                }
+
+                .top-header {
+                    background-color:  undefined !important;
+
+                    background-image: none;
+                }
+                .lmcy_hfollow, .top-header a, .top-header li{
+                color:  undefined !important;
+                }
+
+
+
+                .bg-dark, .navbar-brand, .bottom_footer_menu_text, .bottom_footer_menu_text li a{
+                    color: #f1b914 !important;
+                }
+
+                .lmcy_logo_n {
+                    color: #f1b914 !important;
+                }
+                .lmcy_header_magazine_style.lmcy_cus_top_share.header_layout_style3_custom .social_icon_header_top li a i{
+                color: undefined !important;
+                }
+
+                .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+                    color: #f1b914;
+                }
+
+                footer .social-link {
+                    color: #1f1d17 !important;
+                    background-color: #f1b914 !important;
+                }
+                .jlm_w span{
+                    background:#f1b914;
+                }
+                .jlm_w span:hover{
+                    background:#ffffff;
+                }
+
+
+                .navbar-dark .navbar-nav .nav-link,
+                .dropdown-content a,
+                footer.py-5.bg-dark.text-center p,
+                footer.py-5.bg-dark.text-center a,
+                footer.py-5.bg-dark.text-center a:hover,
+                footer.py-5.bg-dark.text-center a:focus,
+                footer.py-5.bg-dark.text-center a:focus-visible, .header-text-color {
+                    color: #f1b914;
+                }
+
+                .navbar-dark .navbar-nav .nav-link:hover,
+                .bd_left:hover,
+                .dropdown-content li:hover,
+                .navbar-dark .navbar-nav .nav-link:focus {
+                    color: #ffffff;
+                }
+                .head-title {
+                    color: #f1b914 !important;
+                }
+                .head-tagline {
+                    color: #f1b914;
+                }
+
+                footer.py-5.bg-dark.text-center, .footer-text-color {
+                    color: #f1b914 !important;
+                }
+
+                .pre-footer, .pre-footer a{
+                    background-color: #151516 !important;
+                    color: #b5b5b5 !important;
+                }
+
+                .text-theme,
+                a.text-theme:focus,
+                a.text-theme:hover {
+                    color: #f1b914 !important;
+                }
+
+                .btn-banner-theme {
+                    color: undefined;
+                    background-color: #f1b914;
+                    border-color: #f1b914;
+                }
+
+                .btn-banner-theme:hover {
+                    color: #ffffff;
+                    background-color: #3e3d33;
+                }
+
+                .btn-theme {
+                    color: #000000;
+                    background-color: #f1b914;
+                    border-color: #f1b914;
+                }
+
+                .btn-theme:hover {
+                    color: #ffffff;
+                    background-color: #3e3d33;
+                }
+
+
+                .card-title, .card-heading {
+                    color: #ffffff;
+                }
+
+                .main-heading {
+                    color: #f1b914;
+                }
+
+                .card-text {
+                    color: #ffffff!important;
+                    height: auto !important;
+                    min-height: 140px;
+                }
+.card-text p {
+                    color: #ffffff!important;
+                    
+                }
+                .article-card-text, .article-card-text p, .article-card-text h1, .article-card-text h2, .article-card-text h3, .article-card-text h4, .article-card-text h5 {
+                    color: #b5b5b5 !important;
+
+                }
+.article-card-text * {
+                    color: #B5B5B5 !important;
+                   background: none !important;
+                }
+                .article-container {
+                    background-color: #3e3d33;
+                    padding : 10px;
+
+                }
+
+                .cards-container .card {
+                    background-color: #1d1c19 !important;
+                    border: 2px solid #12110e !important;
+                    border-radius: 14px;
+                }
+
+                .cards-container .card .card-title {
+                    color: #ffffff;
+                }
+
+                .cards-container .card .card-text {
+                    color: #bbbbbb!important;
+                }
+                .article-info {
+                    color: #bbbbbb;
+                }
+    </style>
+</head>
+<body>
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a style="color: inherit; text-decoration: inherit;" href="index.html">
+            <span class="navbar-brand"><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></span>
+            <span class="navbar-brand header-text-color">t-500</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="display: none">
+                <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-facebook"></i></a></li>
+                <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-twitter"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Content-->
+<section class="pt-4 article-container">
+    <header class="py-2 border-bottom mb-4" style="display: none">
+        <div class="container ql-editor article-card-text" id="sitewide-header" >
+            
+        </div>
+    </header>
+    <div class="container px-lg-5">
+        <!-- Page Features-->
+        <div class="row gx-lg-5">
+            <!-- Header-->
+        <header class="py-5">
+            <div class="container px-lg-5">
+                <div class="p-4 p-lg-5 rounded-3 text-center cards-container">
+                    <img class="card-img-top" src="how-to-create-filters-based-on-specific-criteria-in-gmail-122526.jpg?key=R4gI8x" alt="How to create filters based on specific criteria in Gmail" />
+                </div>
+            </div>
+        </header>
+        <!-- Content section 1-->
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 article-card-text">
+                        <h1 class="main-heading">How to create filters based on specific criteria in Gmail</h1>
+                        <div class="small article-info"></div>
+                        <div class="article-info fst-italic mb-2">2024-02-13</div>
+                        <p class=""><h3 class=''>Table Of Contents</h3><div><a href='#Creating Filters in Gmail: The Ultimate Guide'>Creating Filters in Gmail: The Ultimate Guide</a></div><div><a href='#Mastering Gmail Filters: A StepbyStep Tutorial'>Mastering Gmail Filters: A StepbyStep Tutorial</a></div><div><a href='#Customizing Your Gmail Inbox: Filters made Easy'>Customizing Your Gmail Inbox: Filters made Easy</a></div><div><a href='#Streamlining Your Gmail Experience: Filters 101'>Streamlining Your Gmail Experience: Filters 101</a></div><div><a href='#Efficiently Organize Your Gmail: The Power of Filters'>Efficiently Organize Your Gmail: The Power of Filters</a></div><div><a href='#Take Control of Your Inbox: Creating Personalized Filters'>Take Control of Your Inbox: Creating Personalized Filters</a></div><br/><h2 id="Creating Filters in Gmail: The Ultimate Guide">Creating Filters in Gmail: The Ultimate Guide</h2><p>Creating Filters in Gmail: The Ultimate Guide<br/><br/>Gmail filters are a powerful tool that can help you take control of your inbox and streamline your email management process. With filters, you can automatically categorize, organize, and prioritize incoming emails based on specific criteria. Whether you want to sort emails from a specific sender into a separate folder, label emails with certain keywords, or automatically delete spam, filters can be customized to suit your individual needs and preferences.<br/><br/>To create a filter in Gmail, start by clicking on the gear icon in the top-right corner of the Gmail interface and select "Settings" from the dropdown menu. Next, navigate to the "Filters and blocked addresses" tab and click on "Create a new filter." Here, you can define the criteria for your filter, such as the sender's email address, specific keywords in the subject line or body of the email, or even the email's size or attachment type. Once you have specified your filter criteria, you can choose what action you want Gmail to take for emails that meet the criteria. options include labeling the email, archiving it, forwarding it to a different email address, or automatically deleting it. With the ability to create multiple filters, you can make your Gmail inbox work specifically for you.</p><h2 id="Mastering Gmail Filters: A StepbyStep Tutorial">Mastering Gmail Filters: A StepbyStep Tutorial</h2><p>Filters in Gmail are an invaluable tool when it comes to organizing and managing your email. With just a few simple steps, you can create personalized filters based on specific criteria to ensure that important messages don't get lost in the sea of incoming emails. Mastering Gmail filters is easier than you think, and once you do, you'll wonder how you ever lived without them.<br/><br/>To get started, navigate to the Settings menu in Gmail and select "Filters and Blocked Addresses." From there, click on the "Create a new filter" option to begin customizing your filtering criteria. You have a variety of options to choose from, including filtering emails based on specific senders, recipients, subject lines, keywords, and even attachment types. Once you've selected the criteria that you want to filter, you can choose what actions Gmail should take with the matching emails, such as applying labels, marking as important, or even archiving them. With the ability to create multiple filters, the possibilities are endless for tailoring your Gmail inbox to fit your specific needs. By following these step-by-step instructions, you'll be well on your way to mastering Gmail filters and taking control of your inbox.</p><h2 id="Customizing Your Gmail Inbox: Filters made Easy">Customizing Your Gmail Inbox: Filters made Easy</h2><p>Customizing your Gmail inbox with filters can be incredibly easy and efficient, allowing you to take control of your email organization like never before. With just a few simple steps, you can set up filters based on specific criteria to automatically sort and label incoming emails. <br/><br/>To get started, open Gmail and click on the gear icon in the top right corner of your inbox. From the dropdown menu, select "Settings." In the Settings menu, navigate to the "Filters and Blocked Addresses" tab. Here, you can create a new filter by clicking on the "Create a new filter" link. This will open a dialog box where you can define the criteria for your filter. You can choose to filter emails by sender, subject, keywords, and more. Once you have defined your criteria, click on the "Create filter" button. From here, you can choose what action you want Gmail to take with emails that match your filter criteria, such as applying a label, marking as read, or archiving. Plus, you can even choose to apply your filters to existing conversations. Customizing your Gmail inbox with filters is a powerful way to streamline your email management and ensure that important messages are never missed.</p><h2 id="Streamlining Your Gmail Experience: Filters 101">Streamlining Your Gmail Experience: Filters 101</h2><p>Filters in Gmail can be a game-changer for streamlining your email experience. By setting specific criteria, you can automatically categorize and organize your incoming emails, saving you time and reducing clutter in your inbox. Whether you want to prioritize important emails from specific senders or automatically label and archive promotional emails, filters are a powerful tool at your disposal.<br/><br/>To create a filter in Gmail, start by opening your Gmail account and clicking on the small gear icon in the top right corner. From the drop-down menu, select "Settings," and then navigate to the "Filters and Blocked Addresses" tab. Here, you'll find the option to create a new filter. Click on it, and a pop-up window will appear, allowing you to specify the criteria for your filter. You can choose to filter emails based on the sender, recipient, subject line, words contained in the email, attachment presence, and more. Once you've defined the criteria, click on the "Create filter" button, and Gmail will give you options to apply various actions to the filtered emails, such as marking them as read, archiving them, or automatically applying a label. It's all up to you and how you want to streamline your Gmail experience.</p><h2 id="Efficiently Organize Your Gmail: The Power of Filters">Efficiently Organize Your Gmail: The Power of Filters</h2><p>Do you feel overwhelmed by the constant flood of emails in your Gmail inbox? Are you tired of wasting precious time manually sorting and categorizing each message? Look no further, because the power of filters can revolutionize the way you organize your Gmail.<br/><br/>Gmail filters are a truly game-changing feature that allow you to automatically sort, label, and even forward incoming emails based on specific criteria. With filters, you can take control of your inbox and ensure that important messages are easily accessible, while less relevant ones are tucked away in their designated folders. Whether you want to prioritize emails from specific contacts, categorize messages based on keywords, or automatically archive old newsletters, filters can do it all. By setting up rules and conditions, you can customize your filters to suit your unique needs and preferences, making your Gmail experience more efficient and tailored to your workflow. Say goodbye to cluttered inboxes and hello to a streamlined and organized email system.</p><h2 id="Take Control of Your Inbox: Creating Personalized Filters">Take Control of Your Inbox: Creating Personalized Filters</h2><p>Take Control of Your Inbox: Creating Personalized Filters<br/><br/>Creating personalized filters in Gmail is a powerful tool that allows you to take control of your inbox and manage your email with ease. With the ability to automatically categorize, label, or even forward emails based on specific criteria, filters can significantly streamline your Gmail experience. Whether you want to prioritize important messages, mark certain senders as spam, or organize emails by specific keywords, creating personalized filters is the ultimate solution.<br/><br/>To get started, navigate to your Gmail settings by clicking on the gear icon in the top-right corner of your inbox. From the drop-down menu, select "See all settings" and then click on the "Filters and Blocked Addresses" tab. Here, you can create a new filter by clicking on the "Create a new filter" link. You will be presented with a range of criteria to choose from, including sender, recipient, subject, keywords, and more. Simply fill in the criteria that matches your specific needs, and Gmail will automatically perform the designated action for incoming emails that meet those criteria.</p></p>
+                        <hr /><h3>Related Links</h3><a class="text-theme" href="creating-and-applying-multiple-filters-in-gmail-for-better-email-management.html">Creating and applying multiple filters in Gmail for better email management</a><br /><a class="text-theme" href="step-by-step-guide-to-creating-filters-for-incoming-emails.html">Step-by-step guide to creating filters for incoming emails</a><br />
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        <div class="clearfix"></div>
+        <br>
+        <br>
+        <div class="container px-5">
+            <div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container mb-4 ql-editor article-card-text" id="sitewide-footer" style="display:none">
+        
+    </div>
+</section>
+<div class="py-5 bg-gray-200 text-muted pre-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mb-5 mb-lg-0">
+                <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
+                    <a href="terms.html">Terms of Use</a>
+                </div>
+
+                <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
+                    <a href="privacy.html">Privacy Policy</a>
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <h6 style=" display: none" class="text-uppercase text-dark mb-3">
+                    <a href="sitemap.html">Sitemap</a>
+                </h6>
+
+                <h6 style=" display: inherit" class="text-uppercase text-dark mb-3">
+                    <a href="contact.html">Contact Us!</a>
+                </h6>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer-->
+<footer class="py-5 bg-dark text-center">
+    
+    <div class="container mb-4"><p class="m-0 text-center ">
+        <span class="navbar-brand" ><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></span>
+        <span class="navbar-brand">t-500</span>
+    </p></div>
+    <ul class="list-inline mb-4" style="display: none">
+        <li class="list-inline-item" style="display: none">
+            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a>
+        </li>
+    </ul>
+    <div class="container"><p class="m-0 text-center">Copyright &copy; t-500. All rights reserved.</p></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<script>
+    const url = window.location.href;
+    let domain = (new URL(url));
+    let hostname = domain.hostname;
+    let pathname = domain.pathname.split('/');
+    let protocol = domain.protocol;
+     let domain_url =  protocol +'//'+hostname+'/';
+    if(pathname.length > 2){
+        domain_url =  domain_url +pathname.slice(1,pathname.length - 1).join('/')+'/'+document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }else{
+        domain_url =  domain_url +document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }
+    document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
+</script>
+</body>
+</html>

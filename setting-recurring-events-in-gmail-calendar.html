@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="" />
+    <title>Setting Recurring Events in Gmail Calendar</title>
+                    <link rel="canonical" href="setting-recurring-events-in-gmail-calendar.html" />
+    
+    <meta name="description"
+          content="Learn how to effortlessly organize your schedule with Gmail Calendar's recurring events feature. Never miss an important meeting or appointment again. Take control of your time and stay on top of your commitments with this simple guide."/>
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+<link href="home/css/quill.core.css" rel="stylesheet" />
+    <link href="article/css/styles.css" rel="stylesheet" />
+    
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <style>
+        h3 {
+            font-size: 24px !important;
+        }
+        p{
+            margin-bottom: 28px !important;
+        }
+        .bg-header {
+            --bs-bg-opacity: 1;
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),#000000) !important;
+        }
+        .bg-footer {
+            --bs-bg-opacity: 1;
+        background-image: linear-gradient(#000000,#000000) !important;
+        }
+        .header-text-color{
+        color: #ffffff ;
+        }
+        .footer-text-color{
+        color: #ffffff ;
+        }
+ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+            font-weight: 500 !important;
+        }
+        body {
+                    background-color: #292921;
+                }
+
+                .transparent-layer{
+                        background-color: rgba(NaN, 0 ,0, 0) !important;
+
+                    }
+                    .header-transparent-layer {
+                    background-color: rgba(NaN, 0 ,0, 0) !important;
+
+                    }
+
+                .all-article-link{
+                    background-color:  #f1b914 !important;
+                    color:  #000000 !important;
+                    border: 1px solid #d6b914 !important;
+                }
+
+                .bg-dark, .bg-header, .bg-footer, .dropdown-content2 {
+                    background-color:  #1f1d17 !important;
+                    background-image: none;
+                }
+
+                .top-header {
+                    background-color:  undefined !important;
+
+                    background-image: none;
+                }
+                .lmcy_hfollow, .top-header a, .top-header li{
+                color:  undefined !important;
+                }
+
+
+
+                .bg-dark, .navbar-brand, .bottom_footer_menu_text, .bottom_footer_menu_text li a{
+                    color: #f1b914 !important;
+                }
+
+                .lmcy_logo_n {
+                    color: #f1b914 !important;
+                }
+                .lmcy_header_magazine_style.lmcy_cus_top_share.header_layout_style3_custom .social_icon_header_top li a i{
+                color: undefined !important;
+                }
+
+                .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+                    color: #f1b914;
+                }
+
+                footer .social-link {
+                    color: #1f1d17 !important;
+                    background-color: #f1b914 !important;
+                }
+                .jlm_w span{
+                    background:#f1b914;
+                }
+                .jlm_w span:hover{
+                    background:#ffffff;
+                }
+
+
+                .navbar-dark .navbar-nav .nav-link,
+                .dropdown-content a,
+                footer.py-5.bg-dark.text-center p,
+                footer.py-5.bg-dark.text-center a,
+                footer.py-5.bg-dark.text-center a:hover,
+                footer.py-5.bg-dark.text-center a:focus,
+                footer.py-5.bg-dark.text-center a:focus-visible, .header-text-color {
+                    color: #f1b914;
+                }
+
+                .navbar-dark .navbar-nav .nav-link:hover,
+                .bd_left:hover,
+                .dropdown-content li:hover,
+                .navbar-dark .navbar-nav .nav-link:focus {
+                    color: #ffffff;
+                }
+                .head-title {
+                    color: #f1b914 !important;
+                }
+                .head-tagline {
+                    color: #f1b914;
+                }
+
+                footer.py-5.bg-dark.text-center, .footer-text-color {
+                    color: #f1b914 !important;
+                }
+
+                .pre-footer, .pre-footer a{
+                    background-color: #151516 !important;
+                    color: #b5b5b5 !important;
+                }
+
+                .text-theme,
+                a.text-theme:focus,
+                a.text-theme:hover {
+                    color: #f1b914 !important;
+                }
+
+                .btn-banner-theme {
+                    color: undefined;
+                    background-color: #f1b914;
+                    border-color: #f1b914;
+                }
+
+                .btn-banner-theme:hover {
+                    color: #ffffff;
+                    background-color: #3e3d33;
+                }
+
+                .btn-theme {
+                    color: #000000;
+                    background-color: #f1b914;
+                    border-color: #f1b914;
+                }
+
+                .btn-theme:hover {
+                    color: #ffffff;
+                    background-color: #3e3d33;
+                }
+
+
+                .card-title, .card-heading {
+                    color: #ffffff;
+                }
+
+                .main-heading {
+                    color: #f1b914;
+                }
+
+                .card-text {
+                    color: #ffffff!important;
+                    height: auto !important;
+                    min-height: 140px;
+                }
+.card-text p {
+                    color: #ffffff!important;
+                    
+                }
+                .article-card-text, .article-card-text p, .article-card-text h1, .article-card-text h2, .article-card-text h3, .article-card-text h4, .article-card-text h5 {
+                    color: #b5b5b5 !important;
+
+                }
+.article-card-text * {
+                    color: #B5B5B5 !important;
+                   background: none !important;
+                }
+                .article-container {
+                    background-color: #3e3d33;
+                    padding : 10px;
+
+                }
+
+                .cards-container .card {
+                    background-color: #1d1c19 !important;
+                    border: 2px solid #12110e !important;
+                    border-radius: 14px;
+                }
+
+                .cards-container .card .card-title {
+                    color: #ffffff;
+                }
+
+                .cards-container .card .card-text {
+                    color: #bbbbbb!important;
+                }
+                .article-info {
+                    color: #bbbbbb;
+                }
+    </style>
+</head>
+<body>
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a style="color: inherit; text-decoration: inherit;" href="index.html">
+            <span class="navbar-brand"><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></span>
+            <span class="navbar-brand header-text-color">t-500</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="display: none">
+                <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-facebook"></i></a></li>
+                <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-twitter"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Content-->
+<section class="pt-4 article-container">
+    <header class="py-2 border-bottom mb-4" style="display: none">
+        <div class="container ql-editor article-card-text" id="sitewide-header" >
+            
+        </div>
+    </header>
+    <div class="container px-lg-5">
+        <!-- Page Features-->
+        <div class="row gx-lg-5">
+            <!-- Header-->
+        <header class="py-5">
+            <div class="container px-lg-5">
+                <div class="p-4 p-lg-5 rounded-3 text-center cards-container">
+                    <img class="card-img-top" src="setting-recurring-events-in-gmail-calendar-122733.jpg?key=t5cV49" alt="Setting Recurring Events in Gmail Calendar" />
+                </div>
+            </div>
+        </header>
+        <!-- Content section 1-->
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 article-card-text">
+                        <h1 class="main-heading">Setting Recurring Events in Gmail Calendar</h1>
+                        <div class="small article-info"></div>
+                        <div class="article-info fst-italic mb-2">2024-02-13</div>
+                        <p class=""><h3 class=''>Table Of Contents</h3><div><a href='#Mastering the Art of Scheduling with Gmail Calendar'>Mastering the Art of Scheduling with Gmail Calendar</a></div><div><a href='#Unlocking the Power of Repetition in Your Gmail Calendar'>Unlocking the Power of Repetition in Your Gmail Calendar</a></div><div><a href='#Boosting Productivity with Recurring Events in Gmail Calendar'>Boosting Productivity with Recurring Events in Gmail Calendar</a></div><div><a href='#Streamlining Your Schedule: How to Create Recurring Events in Gmail Calendar'>Streamlining Your Schedule: How to Create Recurring Events in Gmail Calendar</a></div><div><a href='#Taking Control of Your Time: Setting Recurring Events in Gmail Calendar'>Taking Control of Your Time: Setting Recurring Events in Gmail Calendar</a></div><div><a href='#Simplify Your Life with Recurring Events in Gmail Calendar'>Simplify Your Life with Recurring Events in Gmail Calendar</a></div><br/><h2 id="Mastering the Art of Scheduling with Gmail Calendar">Mastering the Art of Scheduling with Gmail Calendar</h2><p>Gmail Calendar is a powerful tool that can greatly enhance your scheduling abilities. By understanding its features and functionalities, you can master the art of scheduling with ease. One of the key features that Gmail Calendar offers is the ability to set recurring events, which can save you valuable time and effort in the long run.<br/><br/>Recurring events in Gmail Calendar allow you to automate the process of scheduling regular appointments, meetings, or activities. Whether it's a weekly team meeting, a monthly client call, or a quarterly review session, setting a recurring event ensures that it automatically appears in your calendar at the specified intervals. This feature eliminates the need to manually create the event each time, saving you the hassle of repeatedly entering the same information. With recurring events, you can streamline your schedule and focus on what truly matters, increasing your productivity and efficiency.</p><h2 id="Unlocking the Power of Repetition in Your Gmail Calendar">Unlocking the Power of Repetition in Your Gmail Calendar</h2><p>Unlocking the Power of Repetition in Your Gmail Calendar<br/><br/>Scheduling numerous events in your Gmail Calendar can be a time-consuming and repetitive task. However, by utilizing the power of recurring events, you can simplify your scheduling process and boost your productivity. Gmail Calendar offers a range of options for recurring events, allowing you to automate the creation of events that repeat daily, weekly, monthly, or even annually. This feature is particularly useful for events that have a predictable pattern, such as weekly team meetings, monthly progress reviews, or annual conferences.<br/><br/>To create a recurring event in Gmail Calendar, simply open the desired date and time, and select the "Repeat" option. From there, you can tailor the recurring pattern to meet your needs. Whether you want an event to repeat every day, every weekday, or on specific days of the week, Gmail Calendar offers the flexibility to accommodate your desired schedule. Additionally, you can specify an end date for the recurring event or leave it open-ended. By taking advantage of the recurring events feature in Gmail Calendar, you can free up valuable time and streamline your schedule, ultimately boosting your overall productivity.</p><h2 id="Boosting Productivity with Recurring Events in Gmail Calendar">Boosting Productivity with Recurring Events in Gmail Calendar</h2><p>Recurring events in Gmail Calendar can be a powerful tool for boosting productivity in your daily life. With the ability to set up events that repeat at specific intervals, you can ensure that important tasks and appointments are never forgotten. Whether it's a weekly team meeting, a monthly health check-up, or an annual reminder for an anniversary, Gmail Calendar makes it easy to stay on top of your schedule and maximize your efficiency.<br/><br/>By setting recurring events in Gmail Calendar, you can eliminate the need to manually create the same event over and over again. This not only saves valuable time but also reduces the risk of forgetting important commitments. Imagine never having to worry about missing a deadline or forgetting an important meeting ever again. With recurring events, you can set it and forget it, allowing you to focus on more pressing matters and increasing your overall productivity.</p><h2 id="Streamlining Your Schedule: How to Create Recurring Events in Gmail Calendar">Streamlining Your Schedule: How to Create Recurring Events in Gmail Calendar</h2><p>Creating recurring events in Gmail Calendar can greatly streamline your schedule and help you stay organized. Whether you have weekly team meetings, monthly check-ins, or annual conferences, setting up recurring events can save you time and effort.<br/><br/>To create a recurring event in Gmail Calendar, start by opening your calendar and selecting the date and time for the first instance of the event. Then, click on the "More options" button. In the event details window, you will see a "Repeats" option. Click on it to choose the frequency of the recurring event. You can choose from options like daily, weekly, monthly, or yearly, depending on the pattern you need. Once you have selected the frequency, you can further customize the recurrence by specifying the end date or setting specific occurrences. Click on "Save" and your recurring event will be created. With just a few clicks, you can ensure that this event will be automatically added to your calendar at the specified intervals, simplifying your schedule and allowing you to focus on other important tasks.</p><h2 id="Taking Control of Your Time: Setting Recurring Events in Gmail Calendar">Taking Control of Your Time: Setting Recurring Events in Gmail Calendar</h2><p>Taking control of your time is a crucial aspect of maximizing productivity and achieving success in both personal and professional realms. One effective tool for managing your schedule and ensuring that important tasks and events are not overlooked is the Gmail Calendar. With its user-friendly interface and robust features, Gmail Calendar empowers users to set recurring events, simplifying their lives and providing peace of mind.<br/><br/>To set a recurring event in Gmail Calendar, simply follow a few simple steps. First, navigate to the Gmail Calendar interface either by clicking on the "Calendar" tab in your Gmail account or by visiting the standalone web application. Next, click on the desired date and time for your event. From there, click on the "More options" button, which will open a window with additional event details. In this window, locate the "Repeats" section and click on the dropdown menu. Here, you can select from a variety of options such as daily, weekly, monthly, or custom intervals. Once you have chosen the appropriate recurring pattern, specify the desired end date for the series of events. Finally, click on the "Save" button to save your recurring event.</p><h2 id="Simplify Your Life with Recurring Events in Gmail Calendar">Simplify Your Life with Recurring Events in Gmail Calendar</h2><p>Simplify Your Life with Recurring Events in Gmail Calendar<br/><br/>Are you tired of manually adding the same event to your calendar every week? Wouldn't it be great if you could automate this process and save yourself valuable time? Well, with Gmail Calendar's recurring events feature, you can do exactly that. By setting up recurring events, you can schedule regular activities, meetings, or appointments with just a few clicks, eliminating the need for tedious data entry. <br/><br/>Not only will this save you time and effort, but it will also help you stay organized and on top of your schedule. Whether it's a weekly team meeting, a monthly project deadline, or a yearly health check-up, recurring events ensure that important dates are always on your radar. Imagine the peace of mind that comes with knowing that your calendar is automatically updated with these events, allowing you to focus on what matters most â your work and personal life. So why not simplify your life and let Gmail Calendar handle the repetitive tasks for you?</p></p>
+                        <hr /><h3>Related Links</h3><a class="text-theme" href="managing-rsvps-in-gmail-calendar-events.html">Managing RSVPs in Gmail Calendar Events</a><br /><a class="text-theme" href="syncing-gmail-calendar-with-other-productivity-tools.html">Syncing Gmail Calendar with Other Productivity Tools</a><br />
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        <div class="clearfix"></div>
+        <br>
+        <br>
+        <div class="container px-5">
+            <div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container mb-4 ql-editor article-card-text" id="sitewide-footer" style="display:none">
+        
+    </div>
+</section>
+<div class="py-5 bg-gray-200 text-muted pre-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mb-5 mb-lg-0">
+                <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
+                    <a href="terms.html">Terms of Use</a>
+                </div>
+
+                <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
+                    <a href="privacy.html">Privacy Policy</a>
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <h6 style=" display: none" class="text-uppercase text-dark mb-3">
+                    <a href="sitemap.html">Sitemap</a>
+                </h6>
+
+                <h6 style=" display: inherit" class="text-uppercase text-dark mb-3">
+                    <a href="contact.html">Contact Us!</a>
+                </h6>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer-->
+<footer class="py-5 bg-dark text-center">
+    
+    <div class="container mb-4"><p class="m-0 text-center ">
+        <span class="navbar-brand" ><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></span>
+        <span class="navbar-brand">t-500</span>
+    </p></div>
+    <ul class="list-inline mb-4" style="display: none">
+        <li class="list-inline-item" style="display: none">
+            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a>
+        </li>
+    </ul>
+    <div class="container"><p class="m-0 text-center">Copyright &copy; t-500. All rights reserved.</p></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<script>
+    const url = window.location.href;
+    let domain = (new URL(url));
+    let hostname = domain.hostname;
+    let pathname = domain.pathname.split('/');
+    let protocol = domain.protocol;
+     let domain_url =  protocol +'//'+hostname+'/';
+    if(pathname.length > 2){
+        domain_url =  domain_url +pathname.slice(1,pathname.length - 1).join('/')+'/'+document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }else{
+        domain_url =  domain_url +document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }
+    document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
+</script>
+</body>
+</html>

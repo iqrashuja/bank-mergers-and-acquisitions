@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="" />
+    <title>Filtering Emails by Subject in Gmail</title>
+                    <link rel="canonical" href="filtering-emails-by-subject-in-gmail.html" />
+    
+    <meta name="description"
+          content="Discover how to efficiently filter your emails by subject in Gmail with our comprehensive blog post. Streamline your inbox and save time by following our step-by-step guide to organizing your emails like a pro. Don't let a cluttered inbox overwhelm you â take control and optimize your email experience today."/>
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+<link href="home/css/quill.core.css" rel="stylesheet" />
+    <link href="article/css/styles.css" rel="stylesheet" />
+    
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <style>
+        h3 {
+            font-size: 24px !important;
+        }
+        p{
+            margin-bottom: 28px !important;
+        }
+        .bg-header {
+            --bs-bg-opacity: 1;
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),#000000) !important;
+        }
+        .bg-footer {
+            --bs-bg-opacity: 1;
+        background-image: linear-gradient(#000000,#000000) !important;
+        }
+        .header-text-color{
+        color: #ffffff ;
+        }
+        .footer-text-color{
+        color: #ffffff ;
+        }
+ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+            font-weight: 500 !important;
+        }
+        body {
+                    background-color: #292921;
+                }
+
+                .transparent-layer{
+                        background-color: rgba(NaN, 0 ,0, 0) !important;
+
+                    }
+                    .header-transparent-layer {
+                    background-color: rgba(NaN, 0 ,0, 0) !important;
+
+                    }
+
+                .all-article-link{
+                    background-color:  #f1b914 !important;
+                    color:  #000000 !important;
+                    border: 1px solid #d6b914 !important;
+                }
+
+                .bg-dark, .bg-header, .bg-footer, .dropdown-content2 {
+                    background-color:  #1f1d17 !important;
+                    background-image: none;
+                }
+
+                .top-header {
+                    background-color:  undefined !important;
+
+                    background-image: none;
+                }
+                .lmcy_hfollow, .top-header a, .top-header li{
+                color:  undefined !important;
+                }
+
+
+
+                .bg-dark, .navbar-brand, .bottom_footer_menu_text, .bottom_footer_menu_text li a{
+                    color: #f1b914 !important;
+                }
+
+                .lmcy_logo_n {
+                    color: #f1b914 !important;
+                }
+                .lmcy_header_magazine_style.lmcy_cus_top_share.header_layout_style3_custom .social_icon_header_top li a i{
+                color: undefined !important;
+                }
+
+                .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+                    color: #f1b914;
+                }
+
+                footer .social-link {
+                    color: #1f1d17 !important;
+                    background-color: #f1b914 !important;
+                }
+                .jlm_w span{
+                    background:#f1b914;
+                }
+                .jlm_w span:hover{
+                    background:#ffffff;
+                }
+
+
+                .navbar-dark .navbar-nav .nav-link,
+                .dropdown-content a,
+                footer.py-5.bg-dark.text-center p,
+                footer.py-5.bg-dark.text-center a,
+                footer.py-5.bg-dark.text-center a:hover,
+                footer.py-5.bg-dark.text-center a:focus,
+                footer.py-5.bg-dark.text-center a:focus-visible, .header-text-color {
+                    color: #f1b914;
+                }
+
+                .navbar-dark .navbar-nav .nav-link:hover,
+                .bd_left:hover,
+                .dropdown-content li:hover,
+                .navbar-dark .navbar-nav .nav-link:focus {
+                    color: #ffffff;
+                }
+                .head-title {
+                    color: #f1b914 !important;
+                }
+                .head-tagline {
+                    color: #f1b914;
+                }
+
+                footer.py-5.bg-dark.text-center, .footer-text-color {
+                    color: #f1b914 !important;
+                }
+
+                .pre-footer, .pre-footer a{
+                    background-color: #151516 !important;
+                    color: #b5b5b5 !important;
+                }
+
+                .text-theme,
+                a.text-theme:focus,
+                a.text-theme:hover {
+                    color: #f1b914 !important;
+                }
+
+                .btn-banner-theme {
+                    color: undefined;
+                    background-color: #f1b914;
+                    border-color: #f1b914;
+                }
+
+                .btn-banner-theme:hover {
+                    color: #ffffff;
+                    background-color: #3e3d33;
+                }
+
+                .btn-theme {
+                    color: #000000;
+                    background-color: #f1b914;
+                    border-color: #f1b914;
+                }
+
+                .btn-theme:hover {
+                    color: #ffffff;
+                    background-color: #3e3d33;
+                }
+
+
+                .card-title, .card-heading {
+                    color: #ffffff;
+                }
+
+                .main-heading {
+                    color: #f1b914;
+                }
+
+                .card-text {
+                    color: #ffffff!important;
+                    height: auto !important;
+                    min-height: 140px;
+                }
+.card-text p {
+                    color: #ffffff!important;
+                    
+                }
+                .article-card-text, .article-card-text p, .article-card-text h1, .article-card-text h2, .article-card-text h3, .article-card-text h4, .article-card-text h5 {
+                    color: #b5b5b5 !important;
+
+                }
+.article-card-text * {
+                    color: #B5B5B5 !important;
+                   background: none !important;
+                }
+                .article-container {
+                    background-color: #3e3d33;
+                    padding : 10px;
+
+                }
+
+                .cards-container .card {
+                    background-color: #1d1c19 !important;
+                    border: 2px solid #12110e !important;
+                    border-radius: 14px;
+                }
+
+                .cards-container .card .card-title {
+                    color: #ffffff;
+                }
+
+                .cards-container .card .card-text {
+                    color: #bbbbbb!important;
+                }
+                .article-info {
+                    color: #bbbbbb;
+                }
+    </style>
+</head>
+<body>
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a style="color: inherit; text-decoration: inherit;" href="index.html">
+            <span class="navbar-brand"><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></span>
+            <span class="navbar-brand header-text-color">t-500</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="display: none">
+                <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-facebook"></i></a></li>
+                <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-twitter"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Content-->
+<section class="pt-4 article-container">
+    <header class="py-2 border-bottom mb-4" style="display: none">
+        <div class="container ql-editor article-card-text" id="sitewide-header" >
+            
+        </div>
+    </header>
+    <div class="container px-lg-5">
+        <!-- Page Features-->
+        <div class="row gx-lg-5">
+            <!-- Header-->
+        <header class="py-5">
+            <div class="container px-lg-5">
+                <div class="p-4 p-lg-5 rounded-3 text-center cards-container">
+                    <img class="card-img-top" src="filtering-emails-by-subject-in-gmail-122566.jpg?key=hyte6A" alt="Filtering Emails by Subject in Gmail" />
+                </div>
+            </div>
+        </header>
+        <!-- Content section 1-->
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 article-card-text">
+                        <h1 class="main-heading">Filtering Emails by Subject in Gmail</h1>
+                        <div class="small article-info"></div>
+                        <div class="article-info fst-italic mb-2">2024-02-13</div>
+                        <p class=""><h3 class=''>Table Of Contents</h3><div><a href='#Understanding Gmail's Email Subject Filtering Feature'>Understanding Gmail's Email Subject Filtering Feature</a></div><div><a href='#Mastering Email Organization in Gmail'>Mastering Email Organization in Gmail</a></div><div><a href='#The Power of SubjectBased Email Filtering in Gmail'>The Power of SubjectBased Email Filtering in Gmail</a></div><div><a href='#Simplify Your Inbox with Gmail's Subject Filtering'>Simplify Your Inbox with Gmail's Subject Filtering</a></div><div><a href='#Boost Your Productivity with Gmail's SubjectBased Email Sorting'>Boost Your Productivity with Gmail's SubjectBased Email Sorting</a></div><div><a href='#How to Efficiently Manage Emails in Gmail using Subject Filtering'>How to Efficiently Manage Emails in Gmail using Subject Filtering</a></div><br/><h2 id="Understanding Gmail's Email Subject Filtering Feature">Understanding Gmail's Email Subject Filtering Feature</h2><p>Understanding Gmail's Email Subject Filtering Feature<br/>Gmail's email subject filtering feature is a powerful tool that allows users to effectively organize and prioritize their incoming emails. By enabling this feature, users can automatically sort their emails based on the subject line, eliminating the tedious task of manually sorting through a cluttered inbox.<br/><br/>With Gmail's email subject filtering feature, users have the ability to create specific filters that can automatically label, archive, delete, or even forward emails to other recipients based on the subject line. This feature provides users with a tailored and efficient way to manage their emails, saving both time and effort in the process.<br/><br/>Not only does this feature help users keep their inbox organized, but it also enables them to easily locate and retrieve important emails. By creating filters based on specific subject keywords or phrases, users can quickly find relevant emails using the search function, reducing the time spent on searching through countless messages.<br/><br/>Whether you're looking to de-clutter your inbox, prioritize important emails, or simply streamline your email management process, understanding and utilizing Gmail's email subject filtering feature can greatly enhance your overall productivity and efficiency.</p><h2 id="Mastering Email Organization in Gmail">Mastering Email Organization in Gmail</h2><p>Mastering Email Organization in Gmail<br/><br/>One of the key skills to master in order to effectively manage your email inbox in Gmail is email organization. Without a proper organization system in place, your inbox can quickly become overwhelmed with a flood of incoming messages, making it difficult to find and respond to important emails in a timely manner.<br/><br/>To begin mastering email organization in Gmail, it is important to understand the various features and tools that Gmail provides. One such feature is the ability to create and use labels. Labels function as tags that you can attach to emails, allowing you to categorize them based on their subject matter or importance. By applying labels to your emails, you can easily locate and sort them, saving you valuable time and effort. Additionally, labels can be customized with different colors, making it visually appealing and easier to navigate through your inbox. It's important to take advantage of this feature to create a streamlined and organized email management system.</p><h2 id="The Power of SubjectBased Email Filtering in Gmail">The Power of SubjectBased Email Filtering in Gmail</h2><p>Gmail's subject-based email filtering feature holds immense power when it comes to managing your inbox efficiently. By organizing your emails based on their subject lines, you can effortlessly locate and prioritize the messages that matter most to you. This powerful feature allows you to create filters that automatically categorize incoming emails into specific folders or labels, reducing clutter and saving you valuable time.<br/><br/>The subject-based email filtering in Gmail provides a simplified approach to keeping your inbox organized. With just a few clicks, you can set up filters that will automatically sort incoming mails into different categories based on their subject lines. This means that important emails can be prioritized and easy to find, while less important or spammy emails can be filtered out of your main inbox. By adopting this efficient email management strategy, you can boost your productivity and stay focused on what truly matters.</p><h2 id="Simplify Your Inbox with Gmail's Subject Filtering">Simplify Your Inbox with Gmail's Subject Filtering</h2><p>Simplify Your Inbox with Gmail's Subject Filtering<br/><br/>Managing a cluttered inbox can be a daunting task, but with Gmail's subject filtering feature, it doesn't have to be. This powerful tool allows you to streamline your inbox by automatically categorizing emails based on their subject lines. By setting up filters, you can ensure that important emails are easily accessible while less crucial ones are neatly organized or even bypassed completely.<br/><br/>The beauty of Gmail's subject filtering feature lies in its simplicity. With just a few clicks, you can create filters that automatically label, archive, delete, or categorize your emails into specific folders. Whether you want to prioritize emails from a specific sender, filter out promotional emails, or group all emails with a particular subject together, Gmail's subject filtering allows you to customize your inbox to suit your needs. No more sifting through countless emails to find what you're looking for - with subject filtering, you can effortlessly navigate through your inbox, saving precious time and energy.</p><h2 id="Boost Your Productivity with Gmail's SubjectBased Email Sorting">Boost Your Productivity with Gmail's SubjectBased Email Sorting</h2><p>Boosting productivity is a key goal for many individuals, and when it comes to email management, Gmail's subject-based email sorting feature can be a game-changer. By allowing users to filter emails based on their subjects, Gmail enables a more streamlined approach to inbox organization. No longer will you have to wade through a sea of emails to find the ones that matter most to you; with subject-based email sorting, you can quickly locate and prioritize the emails that require your attention.<br/><br/>One of the primary benefits of Gmail's subject-based email sorting is the ability to create filters that automatically categorize incoming emails. By setting up specific filters based on the subject lines of your emails, you can ensure that important messages are placed in designated folders or labeled appropriately. This not only saves you time when searching for specific emails but also helps you stay organized and in control of your inbox. With this powerful productivity tool at your disposal, you can spend less time sifting through emails and more time focusing on the tasks that truly matter.</p><h2 id="How to Efficiently Manage Emails in Gmail using Subject Filtering">How to Efficiently Manage Emails in Gmail using Subject Filtering</h2><p>Efficiently managing emails in Gmail becomes even easier with the subject filtering feature. By organizing your emails based on their subject lines, you can quickly locate and prioritize messages without wasting time scrolling through a cluttered inbox. With just a few simple steps, you can set up filters in Gmail to automatically label and sort incoming emails based on their subjects. This allows you to create specific folders or labels for different types of emails, making it easier to navigate through your inbox and find what you need when you need it.<br/><br/>To get started, go to the settings menu in Gmail and click on "Filters and Blocked Addresses." From there, you can create a new filter by selecting the "Create a new filter" option. In the subject field, enter the keyword or phrase that you want to filter emails by. You can also use operators such as "OR" or "-" to refine your search. Once you've entered the desired subject line, click on "Create filter" to proceed. Then, choose the action you want to take when a matching email arrives, such as applying a label, marking it as important or even forwarding it to a specific folder. Finally, click on "Create filter" again to save your settings. Now, all emails with the specified subject line will automatically be filtered and organized according to your preferences. With Gmail's subject filtering feature, you can have a clutter-free inbox and effortlessly manage your emails with just a few clicks.</p></p>
+                        <hr /><h3>Related Links</h3><a class="text-theme" href="setting-up-filters-for-specific-senders-in-gmail.html">Setting Up Filters for Specific Senders in Gmail</a><br /><a class="text-theme" href="utilizing-regular-expressions-in-gmail-filters.html">Utilizing Regular Expressions in Gmail Filters</a><br />
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        <div class="clearfix"></div>
+        <br>
+        <br>
+        <div class="container px-5">
+            <div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container mb-4 ql-editor article-card-text" id="sitewide-footer" style="display:none">
+        
+    </div>
+</section>
+<div class="py-5 bg-gray-200 text-muted pre-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mb-5 mb-lg-0">
+                <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
+                    <a href="terms.html">Terms of Use</a>
+                </div>
+
+                <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
+                    <a href="privacy.html">Privacy Policy</a>
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <h6 style=" display: none" class="text-uppercase text-dark mb-3">
+                    <a href="sitemap.html">Sitemap</a>
+                </h6>
+
+                <h6 style=" display: inherit" class="text-uppercase text-dark mb-3">
+                    <a href="contact.html">Contact Us!</a>
+                </h6>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer-->
+<footer class="py-5 bg-dark text-center">
+    
+    <div class="container mb-4"><p class="m-0 text-center ">
+        <span class="navbar-brand" ><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></span>
+        <span class="navbar-brand">t-500</span>
+    </p></div>
+    <ul class="list-inline mb-4" style="display: none">
+        <li class="list-inline-item" style="display: none">
+            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a>
+        </li>
+    </ul>
+    <div class="container"><p class="m-0 text-center">Copyright &copy; t-500. All rights reserved.</p></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<script>
+    const url = window.location.href;
+    let domain = (new URL(url));
+    let hostname = domain.hostname;
+    let pathname = domain.pathname.split('/');
+    let protocol = domain.protocol;
+     let domain_url =  protocol +'//'+hostname+'/';
+    if(pathname.length > 2){
+        domain_url =  domain_url +pathname.slice(1,pathname.length - 1).join('/')+'/'+document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }else{
+        domain_url =  domain_url +document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }
+    document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
+</script>
+</body>
+</html>

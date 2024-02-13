@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="" />
+    <title>Managing contacts in Gmail: Adding and editing</title>
+                    <link rel="canonical" href="managing-contacts-in-gmail-adding-and-editing.html" />
+    
+    <meta name="description"
+          content="Looking to become a Gmail pro? Learn how to effectively manage your contacts in Gmail with our comprehensive guide! Discover the simple steps to effortlessly add and edit your contacts, and improve your email experience. From organizing your address book to creating personalized groups, this blog post has got you covered. Enhance your productivity and take control of your Gmail contacts today!"/>
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+<link href="home/css/quill.core.css" rel="stylesheet" />
+    <link href="article/css/styles.css" rel="stylesheet" />
+    
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <style>
+        h3 {
+            font-size: 24px !important;
+        }
+        p{
+            margin-bottom: 28px !important;
+        }
+        .bg-header {
+            --bs-bg-opacity: 1;
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),#000000) !important;
+        }
+        .bg-footer {
+            --bs-bg-opacity: 1;
+        background-image: linear-gradient(#000000,#000000) !important;
+        }
+        .header-text-color{
+        color: #ffffff ;
+        }
+        .footer-text-color{
+        color: #ffffff ;
+        }
+ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+            font-weight: 500 !important;
+        }
+        body {
+                    background-color: #292921;
+                }
+
+                .transparent-layer{
+                        background-color: rgba(NaN, 0 ,0, 0) !important;
+
+                    }
+                    .header-transparent-layer {
+                    background-color: rgba(NaN, 0 ,0, 0) !important;
+
+                    }
+
+                .all-article-link{
+                    background-color:  #f1b914 !important;
+                    color:  #000000 !important;
+                    border: 1px solid #d6b914 !important;
+                }
+
+                .bg-dark, .bg-header, .bg-footer, .dropdown-content2 {
+                    background-color:  #1f1d17 !important;
+                    background-image: none;
+                }
+
+                .top-header {
+                    background-color:  undefined !important;
+
+                    background-image: none;
+                }
+                .lmcy_hfollow, .top-header a, .top-header li{
+                color:  undefined !important;
+                }
+
+
+
+                .bg-dark, .navbar-brand, .bottom_footer_menu_text, .bottom_footer_menu_text li a{
+                    color: #f1b914 !important;
+                }
+
+                .lmcy_logo_n {
+                    color: #f1b914 !important;
+                }
+                .lmcy_header_magazine_style.lmcy_cus_top_share.header_layout_style3_custom .social_icon_header_top li a i{
+                color: undefined !important;
+                }
+
+                .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+                    color: #f1b914;
+                }
+
+                footer .social-link {
+                    color: #1f1d17 !important;
+                    background-color: #f1b914 !important;
+                }
+                .jlm_w span{
+                    background:#f1b914;
+                }
+                .jlm_w span:hover{
+                    background:#ffffff;
+                }
+
+
+                .navbar-dark .navbar-nav .nav-link,
+                .dropdown-content a,
+                footer.py-5.bg-dark.text-center p,
+                footer.py-5.bg-dark.text-center a,
+                footer.py-5.bg-dark.text-center a:hover,
+                footer.py-5.bg-dark.text-center a:focus,
+                footer.py-5.bg-dark.text-center a:focus-visible, .header-text-color {
+                    color: #f1b914;
+                }
+
+                .navbar-dark .navbar-nav .nav-link:hover,
+                .bd_left:hover,
+                .dropdown-content li:hover,
+                .navbar-dark .navbar-nav .nav-link:focus {
+                    color: #ffffff;
+                }
+                .head-title {
+                    color: #f1b914 !important;
+                }
+                .head-tagline {
+                    color: #f1b914;
+                }
+
+                footer.py-5.bg-dark.text-center, .footer-text-color {
+                    color: #f1b914 !important;
+                }
+
+                .pre-footer, .pre-footer a{
+                    background-color: #151516 !important;
+                    color: #b5b5b5 !important;
+                }
+
+                .text-theme,
+                a.text-theme:focus,
+                a.text-theme:hover {
+                    color: #f1b914 !important;
+                }
+
+                .btn-banner-theme {
+                    color: undefined;
+                    background-color: #f1b914;
+                    border-color: #f1b914;
+                }
+
+                .btn-banner-theme:hover {
+                    color: #ffffff;
+                    background-color: #3e3d33;
+                }
+
+                .btn-theme {
+                    color: #000000;
+                    background-color: #f1b914;
+                    border-color: #f1b914;
+                }
+
+                .btn-theme:hover {
+                    color: #ffffff;
+                    background-color: #3e3d33;
+                }
+
+
+                .card-title, .card-heading {
+                    color: #ffffff;
+                }
+
+                .main-heading {
+                    color: #f1b914;
+                }
+
+                .card-text {
+                    color: #ffffff!important;
+                    height: auto !important;
+                    min-height: 140px;
+                }
+.card-text p {
+                    color: #ffffff!important;
+                    
+                }
+                .article-card-text, .article-card-text p, .article-card-text h1, .article-card-text h2, .article-card-text h3, .article-card-text h4, .article-card-text h5 {
+                    color: #b5b5b5 !important;
+
+                }
+.article-card-text * {
+                    color: #B5B5B5 !important;
+                   background: none !important;
+                }
+                .article-container {
+                    background-color: #3e3d33;
+                    padding : 10px;
+
+                }
+
+                .cards-container .card {
+                    background-color: #1d1c19 !important;
+                    border: 2px solid #12110e !important;
+                    border-radius: 14px;
+                }
+
+                .cards-container .card .card-title {
+                    color: #ffffff;
+                }
+
+                .cards-container .card .card-text {
+                    color: #bbbbbb!important;
+                }
+                .article-info {
+                    color: #bbbbbb;
+                }
+    </style>
+</head>
+<body>
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a style="color: inherit; text-decoration: inherit;" href="index.html">
+            <span class="navbar-brand"><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></span>
+            <span class="navbar-brand header-text-color">t-500</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="display: none">
+                <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-facebook"></i></a></li>
+                <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-twitter"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Content-->
+<section class="pt-4 article-container">
+    <header class="py-2 border-bottom mb-4" style="display: none">
+        <div class="container ql-editor article-card-text" id="sitewide-header" >
+            
+        </div>
+    </header>
+    <div class="container px-lg-5">
+        <!-- Page Features-->
+        <div class="row gx-lg-5">
+            <!-- Header-->
+        <header class="py-5">
+            <div class="container px-lg-5">
+                <div class="p-4 p-lg-5 rounded-3 text-center cards-container">
+                    <img class="card-img-top" src="managing-contacts-in-gmail-adding-and-editing-122577.jpg?key=DijYmT" alt="Managing contacts in Gmail: Adding and editing" />
+                </div>
+            </div>
+        </header>
+        <!-- Content section 1-->
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 article-card-text">
+                        <h1 class="main-heading">Managing contacts in Gmail: Adding and editing</h1>
+                        <div class="small article-info"></div>
+                        <div class="article-info fst-italic mb-2">2024-02-13</div>
+                        <p class=""><h3 class=''>Table Of Contents</h3><div><a href='#Simplifying your Gmail contacts: Tips and tricks for easy management'>Simplifying your Gmail contacts: Tips and tricks for easy management</a></div><div><a href='#Mastering the art of contact organization in Gmail'>Mastering the art of contact organization in Gmail</a></div><div><a href='#Effortlessly adding and editing contacts in Gmail'>Effortlessly adding and editing contacts in Gmail</a></div><div><a href='#Streamlining your contact management process in Gmail'>Streamlining your contact management process in Gmail</a></div><div><a href='#Expert techniques for managing your Gmail contacts effectively'>Expert techniques for managing your Gmail contacts effectively</a></div><div><a href='#Enhancing your Gmail experience: Contact management made easy'>Enhancing your Gmail experience: Contact management made easy</a></div><br/><h2 id="Simplifying your Gmail contacts: Tips and tricks for easy management">Simplifying your Gmail contacts: Tips and tricks for easy management</h2><p>Managing contacts in Gmail can be a breeze with the right tips and tricks. To simplify your Gmail contacts and make them easier to manage, start by organizing your contacts into different groups or labels. This way, you can easily find and send emails to specific groups of people, whether it's your colleagues, family members, or friends. To create a group in Gmail, simply navigate to the "Contacts" tab, select the contacts you want to add to a particular group, and click on the "Manage labels" button. From there, you can create a new label and assign it to the selected contacts. By organizing your contacts into groups, you can streamline your communication and ensure that you stay organized and efficient in your Gmail inbox.<br/><br/>Another handy tip for simplifying your Gmail contacts is to merge duplicate contacts. Over time, it's common to end up with multiple entries for the same person, which can cause confusion and clutter in your contact list. Gmail offers a simple solution to merge duplicate contacts, making it easy to keep your contact list clean and up to date. To merge duplicate contacts, go to the "Contacts" tab, select the duplicate entries you want to merge, and click on the "Merge" button. Gmail will automatically merge the selected contacts into one entry, consolidating all the information in a single place. By reducing clutter and eliminating duplicate entries, you can ensure that your Gmail contacts remain organized and easy to manage.</p><h2 id="Mastering the art of contact organization in Gmail">Mastering the art of contact organization in Gmail</h2><p>Contact organization is a crucial aspect of managing your Gmail account efficiently. To master this art, start by categorizing your contacts into different groups or labels. This will enable you to easily locate and access specific contacts when needed. Whether it's creating labels for family, friends, colleagues, or business contacts, having a well-organized contact list will save you time and effort in the long run.<br/><br/>Another useful technique in organizing your contacts is to utilize the âFavoritesâ feature in Gmail. This allows you to mark certain contacts as favorites, making them easily accessible through a separate section in your contact list. By adding important contacts to your favorites, you can quickly reach out to them without having to search through your entire contact list. This is especially handy for frequently contacted individuals, such as close family members or your most trusted business associates. With these tips, you'll be on your way to mastering the art of contact organization in Gmail.</p><h2 id="Effortlessly adding and editing contacts in Gmail">Effortlessly adding and editing contacts in Gmail</h2><p>Adding and editing contacts in Gmail can be a seamless and efficient process with a few handy tips. To add a contact, simply navigate to your Gmail account and click on the "Google Apps" button in the top right corner. From the dropdown menu, select "Contacts" to open the contact management page. Here, you can click on the red "+" button to add a new contact. A pop-up window will appear where you can enter the contact's name, email address, phone number, and other relevant details. Once you have entered all the necessary information, click "Save" to add the contact to your Gmail address book.<br/><br/>When it comes to editing contacts in Gmail, the process is just as straightforward. Again, go to the "Contacts" page from the Google Apps menu. Locate the contact you want to edit and click on it to open the contact's details. In the contact's profile, you can make changes to the information such as their name, email address, phone number, or any other field that needs updating. Remember to hit "Save" after making the necessary changes to ensure that the updates are applied. With these effortless steps, you can easily add new contacts or modify existing ones in your Gmail address book, allowing for smooth and organized communication.</p><h2 id="Streamlining your contact management process in Gmail">Streamlining your contact management process in Gmail</h2><p>Streamlining your contact management process in Gmail is crucial for a seamless and organized email experience. By implementing a few expert techniques, you can efficiently manage all your contacts without the hassle. Firstly, it is essential to regularly review and update your contact list. Take the time to remove any outdated or irrelevant contacts, ensuring that your list only consists of individuals you truly need to communicate with. This will not only help declutter your contact list but also prevent any confusion or accidental emails sent to the wrong person.<br/><br/>Additionally, leveraging labels and groups can significantly simplify your contact management process. By categorizing your contacts into specific labels or groups, you can easily locate and access them when needed. Whether it's classifying contacts based on work, personal, or any other criteria, this categorization ensures that you have a well-organized system at your fingertips. Moreover, Gmail's search functionality allows you to quickly locate contacts by searching for specific labels or groups, saving you valuable time and effort. By implementing these streamlined processes, you can enhance your contact management in Gmail and make your overall email experience more efficient.</p><h2 id="Expert techniques for managing your Gmail contacts effectively">Expert techniques for managing your Gmail contacts effectively</h2><p>Managing your Gmail contacts effectively is essential for staying organized and maximizing your productivity. To help you become a master at contact management, here are some expert techniques that you can implement in your Gmail workflow.<br/><br/>Firstly, it is crucial to regularly review and clean up your contact list. Over time, your Gmail contacts can become cluttered with outdated or irrelevant information. Take the time to go through your list and identify contacts that are no longer relevant or necessary. This could include removing duplicate entries, deleting contacts who have changed their email address, or archiving contacts who you no longer communicate with. By keeping your contact list clean and up-to-date, you'll save time and ensure that you can easily find the contacts you need when you need them.<br/><br/>Secondly, take advantage of Gmail's labeling feature to categorize and group your contacts. Labels allow you to organize your contacts based on specific criteria, such as personal or professional relationships, clients or vendors, or even by project or team. By assigning labels to your contacts, you can quickly filter and search for specific groups of contacts when needed. This can be especially helpful when you need to send a mass email to a specific group or when you want to view all the contacts associated with a particular project. By leveraging the power of labels, you can streamline your contact management process and make it more efficient overall.</p><h2 id="Enhancing your Gmail experience: Contact management made easy">Enhancing your Gmail experience: Contact management made easy</h2><p>Enhancing your Gmail experience: Contact management made easy<br/><br/>Managing your contacts in Gmail is an essential part of staying organized and connected. With a few simple techniques, you can enhance your Gmail experience and make contact management a breeze. <br/><br/>One of the easiest ways to add and edit contacts in Gmail is by utilizing the "Add a contact" feature. Simply click on the "+" icon on the lower right-hand corner of your screen, and a pop-up window will appear. From there, you can enter all the necessary information for your new contact, such as their name, email address, phone number, and even additional details like their job title or company. Once you've inputted all the necessary information, click "Save," and your new contact will be added to your Gmail address book. <br/><br/>Another fantastic feature to take advantage of in Gmail is the ability to edit existing contacts. Whether you need to update someone's phone number, add a secondary email address, or simply change their name, Gmail makes it incredibly easy to make these adjustments. Simply find the contact you want to edit within your address book and click on their name to open their contact details. From there, you can make any necessary changes, and Gmail will automatically save the updated information for you. <br/><br/>By utilizing these quick and simple methods for adding and editing contacts in Gmail, you can streamline your contact management process and enhance your overall Gmail experience. With an organized and up-to-date address book, you'll be able to stay connected with ease and efficiency. So, take advantage of these expert techniques and make contact management in Gmail a breeze.</p></p>
+                        <hr /><h3>Related Links</h3><a class="text-theme" href="adding-email-addresses-to-your-gmail-contacts-list.html">Adding email addresses to your Gmail contacts list</a><br /><a class="text-theme" href="how-to-import-contacts-into-gmail.html">How to import contacts into Gmail</a><br />
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        <div class="clearfix"></div>
+        <br>
+        <br>
+        <div class="container px-5">
+            <div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container mb-4 ql-editor article-card-text" id="sitewide-footer" style="display:none">
+        
+    </div>
+</section>
+<div class="py-5 bg-gray-200 text-muted pre-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mb-5 mb-lg-0">
+                <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
+                    <a href="terms.html">Terms of Use</a>
+                </div>
+
+                <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
+                    <a href="privacy.html">Privacy Policy</a>
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <h6 style=" display: none" class="text-uppercase text-dark mb-3">
+                    <a href="sitemap.html">Sitemap</a>
+                </h6>
+
+                <h6 style=" display: inherit" class="text-uppercase text-dark mb-3">
+                    <a href="contact.html">Contact Us!</a>
+                </h6>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer-->
+<footer class="py-5 bg-dark text-center">
+    
+    <div class="container mb-4"><p class="m-0 text-center ">
+        <span class="navbar-brand" ><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></span>
+        <span class="navbar-brand">t-500</span>
+    </p></div>
+    <ul class="list-inline mb-4" style="display: none">
+        <li class="list-inline-item" style="display: none">
+            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a>
+        </li>
+    </ul>
+    <div class="container"><p class="m-0 text-center">Copyright &copy; t-500. All rights reserved.</p></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<script>
+    const url = window.location.href;
+    let domain = (new URL(url));
+    let hostname = domain.hostname;
+    let pathname = domain.pathname.split('/');
+    let protocol = domain.protocol;
+     let domain_url =  protocol +'//'+hostname+'/';
+    if(pathname.length > 2){
+        domain_url =  domain_url +pathname.slice(1,pathname.length - 1).join('/')+'/'+document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }else{
+        domain_url =  domain_url +document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }
+    document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
+</script>
+</body>
+</html>

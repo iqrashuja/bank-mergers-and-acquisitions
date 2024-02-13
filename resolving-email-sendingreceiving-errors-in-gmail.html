@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="" />
+    <title>Resolving email sending/receiving errors in Gmail</title>
+                    <link rel="canonical" href="resolving-email-sendingreceiving-errors-in-gmail.html" />
+    
+    <meta name="description"
+          content="Learn how to fix those frustrating email sending and receiving errors in Gmail with our comprehensive guide. Get step-by-step instructions and troubleshooting tips to resolve any issues that may be hindering your Gmail experience. Don't let technical glitches hold you back, discover the solutions today and enjoy seamless communication once again."/>
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+<link href="home/css/quill.core.css" rel="stylesheet" />
+    <link href="article/css/styles.css" rel="stylesheet" />
+    
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <style>
+        h3 {
+            font-size: 24px !important;
+        }
+        p{
+            margin-bottom: 28px !important;
+        }
+        .bg-header {
+            --bs-bg-opacity: 1;
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),#000000) !important;
+        }
+        .bg-footer {
+            --bs-bg-opacity: 1;
+        background-image: linear-gradient(#000000,#000000) !important;
+        }
+        .header-text-color{
+        color: #ffffff ;
+        }
+        .footer-text-color{
+        color: #ffffff ;
+        }
+ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+            font-weight: 500 !important;
+        }
+        body {
+                    background-color: #292921;
+                }
+
+                .transparent-layer{
+                        background-color: rgba(NaN, 0 ,0, 0) !important;
+
+                    }
+                    .header-transparent-layer {
+                    background-color: rgba(NaN, 0 ,0, 0) !important;
+
+                    }
+
+                .all-article-link{
+                    background-color:  #f1b914 !important;
+                    color:  #000000 !important;
+                    border: 1px solid #d6b914 !important;
+                }
+
+                .bg-dark, .bg-header, .bg-footer, .dropdown-content2 {
+                    background-color:  #1f1d17 !important;
+                    background-image: none;
+                }
+
+                .top-header {
+                    background-color:  undefined !important;
+
+                    background-image: none;
+                }
+                .lmcy_hfollow, .top-header a, .top-header li{
+                color:  undefined !important;
+                }
+
+
+
+                .bg-dark, .navbar-brand, .bottom_footer_menu_text, .bottom_footer_menu_text li a{
+                    color: #f1b914 !important;
+                }
+
+                .lmcy_logo_n {
+                    color: #f1b914 !important;
+                }
+                .lmcy_header_magazine_style.lmcy_cus_top_share.header_layout_style3_custom .social_icon_header_top li a i{
+                color: undefined !important;
+                }
+
+                .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+                    color: #f1b914;
+                }
+
+                footer .social-link {
+                    color: #1f1d17 !important;
+                    background-color: #f1b914 !important;
+                }
+                .jlm_w span{
+                    background:#f1b914;
+                }
+                .jlm_w span:hover{
+                    background:#ffffff;
+                }
+
+
+                .navbar-dark .navbar-nav .nav-link,
+                .dropdown-content a,
+                footer.py-5.bg-dark.text-center p,
+                footer.py-5.bg-dark.text-center a,
+                footer.py-5.bg-dark.text-center a:hover,
+                footer.py-5.bg-dark.text-center a:focus,
+                footer.py-5.bg-dark.text-center a:focus-visible, .header-text-color {
+                    color: #f1b914;
+                }
+
+                .navbar-dark .navbar-nav .nav-link:hover,
+                .bd_left:hover,
+                .dropdown-content li:hover,
+                .navbar-dark .navbar-nav .nav-link:focus {
+                    color: #ffffff;
+                }
+                .head-title {
+                    color: #f1b914 !important;
+                }
+                .head-tagline {
+                    color: #f1b914;
+                }
+
+                footer.py-5.bg-dark.text-center, .footer-text-color {
+                    color: #f1b914 !important;
+                }
+
+                .pre-footer, .pre-footer a{
+                    background-color: #151516 !important;
+                    color: #b5b5b5 !important;
+                }
+
+                .text-theme,
+                a.text-theme:focus,
+                a.text-theme:hover {
+                    color: #f1b914 !important;
+                }
+
+                .btn-banner-theme {
+                    color: undefined;
+                    background-color: #f1b914;
+                    border-color: #f1b914;
+                }
+
+                .btn-banner-theme:hover {
+                    color: #ffffff;
+                    background-color: #3e3d33;
+                }
+
+                .btn-theme {
+                    color: #000000;
+                    background-color: #f1b914;
+                    border-color: #f1b914;
+                }
+
+                .btn-theme:hover {
+                    color: #ffffff;
+                    background-color: #3e3d33;
+                }
+
+
+                .card-title, .card-heading {
+                    color: #ffffff;
+                }
+
+                .main-heading {
+                    color: #f1b914;
+                }
+
+                .card-text {
+                    color: #ffffff!important;
+                    height: auto !important;
+                    min-height: 140px;
+                }
+.card-text p {
+                    color: #ffffff!important;
+                    
+                }
+                .article-card-text, .article-card-text p, .article-card-text h1, .article-card-text h2, .article-card-text h3, .article-card-text h4, .article-card-text h5 {
+                    color: #b5b5b5 !important;
+
+                }
+.article-card-text * {
+                    color: #B5B5B5 !important;
+                   background: none !important;
+                }
+                .article-container {
+                    background-color: #3e3d33;
+                    padding : 10px;
+
+                }
+
+                .cards-container .card {
+                    background-color: #1d1c19 !important;
+                    border: 2px solid #12110e !important;
+                    border-radius: 14px;
+                }
+
+                .cards-container .card .card-title {
+                    color: #ffffff;
+                }
+
+                .cards-container .card .card-text {
+                    color: #bbbbbb!important;
+                }
+                .article-info {
+                    color: #bbbbbb;
+                }
+    </style>
+</head>
+<body>
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a style="color: inherit; text-decoration: inherit;" href="index.html">
+            <span class="navbar-brand"><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></span>
+            <span class="navbar-brand header-text-color">t-500</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="display: none">
+                <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-facebook"></i></a></li>
+                <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-twitter"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a></li>
+                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Content-->
+<section class="pt-4 article-container">
+    <header class="py-2 border-bottom mb-4" style="display: none">
+        <div class="container ql-editor article-card-text" id="sitewide-header" >
+            
+        </div>
+    </header>
+    <div class="container px-lg-5">
+        <!-- Page Features-->
+        <div class="row gx-lg-5">
+            <!-- Header-->
+        <header class="py-5">
+            <div class="container px-lg-5">
+                <div class="p-4 p-lg-5 rounded-3 text-center cards-container">
+                    <img class="card-img-top" src="resolving-email-sendingreceiving-errors-in-gmail-122854.jpg?key=rJcXuO" alt="Resolving email sending/receiving errors in Gmail" />
+                </div>
+            </div>
+        </header>
+        <!-- Content section 1-->
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 article-card-text">
+                        <h1 class="main-heading">Resolving email sending/receiving errors in Gmail</h1>
+                        <div class="small article-info"></div>
+                        <div class="article-info fst-italic mb-2">2024-02-13</div>
+                        <p class=""><h3 class=''>Table Of Contents</h3><div><a href='#Common Email Errors in Gmail and How to Fix Them'>Common Email Errors in Gmail and How to Fix Them</a></div><div><a href='#Understanding the Gmail Error Messages'>Understanding the Gmail Error Messages</a></div><div><a href='#Troubleshooting Common Email Sending Issues in Gmail'>Troubleshooting Common Email Sending Issues in Gmail</a></div><div><a href='#Resolving Email Delivery Failures in Gmail'>Resolving Email Delivery Failures in Gmail</a></div><div><a href='#Fixing Email Attachment Problems in Gmail'>Fixing Email Attachment Problems in Gmail</a></div><div><a href='#Solving Email Receiving Issues in Gmail'>Solving Email Receiving Issues in Gmail</a></div><br/><h2 id="Common Email Errors in Gmail and How to Fix Them">Common Email Errors in Gmail and How to Fix Them</h2><p>Common Email Errors in Gmail and How to Fix Them<br/><br/>Email errors can be frustrating, especially when they prevent you from sending or receiving important messages. Fortunately, Gmail provides helpful tools and solutions to troubleshoot these common issues. One frequent error is the "Oops... the system encountered a problem" message, which indicates a temporary glitch. To fix this, simply refresh the page or try accessing Gmail in a different web browser. Another common error is the "Username and password do not match" notification. Ensure that you have entered the correct login credentials, and consider resetting your password if needed.<br/><br/>Attachments can also pose problems when sending emails. When encountering the "Attachment failed" error, double-check that your file does not exceed the size limit of 25MB for non-Google files or 50MB for Google files. Additionally, ensure that your internet connection is stable and try sending the attachment again. Another frustrating error is the "Email not delivered" notification. In such cases, confirm that the recipient's email address is correct and that their inbox is not full. Adjusting your email settings to prevent messages from being marked as spam by the recipient's email provider can also help improve delivery success.</p><h2 id="Understanding the Gmail Error Messages">Understanding the Gmail Error Messages</h2><p>Understanding the Gmail Error Messages<br/><br/>When using Gmail, it is not uncommon to encounter error messages that can be confusing and frustrating. However, understanding these error messages is crucial in effectively troubleshooting and resolving any issues that may arise. <br/><br/>Gmail provides specific error codes and messages that can help users identify the root cause of the problem. These error messages can range from temporary server errors, invalid recipient addresses, to email attachments that exceed the file size limit. By carefully reading and analyzing the error messages, users can gain valuable insights into the nature of the problem and take appropriate actions to rectify it. In the next section, we will delve deeper into some of the most common Gmail error messages and discuss their potential solutions.</p><h2 id="Troubleshooting Common Email Sending Issues in Gmail">Troubleshooting Common Email Sending Issues in Gmail</h2><p>Troubleshooting Common Email Sending Issues in Gmail:<br/><br/>Sending an email should be a straightforward process, but occasionally, Gmail users may encounter common issues that prevent their emails from being sent. One of these issues is an unreliable internet connection. A poor or unstable internet connection can cause delays in email delivery or even prevent emails from being sent altogether. To resolve this issue, users should ensure that they have a stable and strong internet connection before attempting to send emails. Connecting to a different Wi-Fi network, switching to a wired internet connection, or restarting the router may help to improve the connection quality.<br/><br/>Another common issue that users may face is hitting the email sending limits imposed by Gmail. Gmail has daily sending limits to prevent abuse of the service and to protect users from spam. If you frequently send a large number of emails in a short period or if you have added multiple recipients to your email, you may reach these limits. To overcome this issue, users can try the following solutions: spread out the email sending over a longer period, reduce the number of recipients added to each email, or consider upgrading to a business or paid Gmail account that has higher sending limits. By following these troubleshooting steps, users can resolve common email sending issues in Gmail and ensure that their messages are delivered promptly and without any interruptions.</p><h2 id="Resolving Email Delivery Failures in Gmail">Resolving Email Delivery Failures in Gmail</h2><p>Email delivery failures can be frustrating, especially when you are expecting important messages or trying to communicate with clients or colleagues. Fortunately, Gmail provides some useful tools to help you resolve these issues and ensure that your emails reach their intended recipients. One common cause of delivery failures is an incorrect or misspelled email address. When sending an email, always double-check the recipient's address to make sure it is accurate. Even a small typo can result in the email being bounced back or going to the wrong person. Additionally, check that you have entered the domain name correctly, as this can also lead to delivery failures. Gmail also provides a feature called "Undo Send" that gives you a few seconds to cancel the sending process if you have made a mistake or noticed an error in the recipient's address. This can be a lifesaver in avoiding delivery failures due to small errors.<br/><br/>Another common issue that can cause email delivery failures is a full mailbox or inbox on the recipient's end. If the recipient's inbox is full, any new emails will not be able to get through, and you may receive a delivery failure notification. In this case, it is worth contacting the recipient through alternative means, such as a phone call or text message, to inform them of the issue and ask them to clear some space in their inbox. Similarly, if your own mailbox is full, you will not be able to receive any new emails until you make some space. Deleting unnecessary emails or archiving them can help resolve this issue and ensure that new emails can be delivered successfully. By being proactive and checking for these common causes of email delivery failures, you can save yourself frustration and ensure that your messages reach their intended recipients in a timely manner.</p><h2 id="Fixing Email Attachment Problems in Gmail">Fixing Email Attachment Problems in Gmail</h2><p>If you are experiencing issues with sending or receiving email attachments in Gmail, there are a few troubleshooting steps you can follow to fix the problem. Firstly, ensure that the file you are trying to attach is not too large for Gmail to handle. Gmail has certain limitations on file size, so if your attachment exceeds these limits, you may encounter difficulties. <br/><br/>Another common source of attachment problems in Gmail can be due to incompatible file formats. Gmail supports a wide range of file types, but there are some file formats that it does not support. Ensure that the file you are trying to attach is in a supported format. If the file format is not compatible, consider converting it to a different format before attaching it to your email.</p><h2 id="Solving Email Receiving Issues in Gmail">Solving Email Receiving Issues in Gmail</h2><p>When it comes to solving email receiving issues in Gmail, there are a few troubleshooting steps you can take. Firstly, check your internet connection to ensure it is stable and working properly. A weak or unstable connection can cause delays in receiving emails. Additionally, verify that you have enough storage space in your Gmail account. If your inbox is full, new emails may not be able to come through. Delete any unnecessary emails or consider upgrading your storage if needed.<br/><br/>Another common issue that may prevent you from receiving emails is incorrect email filters. Filters are useful for organizing your inbox, but it's possible to accidentally set up a filter that redirects incoming emails to another folder or deletes them altogether. To fix this, go to the "Settings" menu in Gmail and click on "Filters and Blocked Addresses." Review your filters and make any necessary adjustments to ensure incoming emails are not being redirected or deleted. Lastly, check your spam folder regularly. Sometimes legitimate emails can end up in the spam folder, so be sure to mark any mistakenly filtered emails as "Not spam" to have them delivered to your inbox in the future. By following these steps, you should be able to resolve most email receiving issues in Gmail and ensure that you don't miss out on important messages.</p></p>
+                        <hr /><h3>Related Links</h3><a class="text-theme" href="how-to-troubleshoot-email-not-showing-up-in-inbox.html">How to troubleshoot email not showing up in inbox</a><br /><a class="text-theme" href="common-reasons-for-email-sendingreceiving-issues.html">Common reasons for email sending/receiving issues</a><br />
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        <div class="clearfix"></div>
+        <br>
+        <br>
+        <div class="container px-5">
+            <div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container mb-4 ql-editor article-card-text" id="sitewide-footer" style="display:none">
+        
+    </div>
+</section>
+<div class="py-5 bg-gray-200 text-muted pre-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mb-5 mb-lg-0">
+                <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
+                    <a href="terms.html">Terms of Use</a>
+                </div>
+
+                <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
+                    <a href="privacy.html">Privacy Policy</a>
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <h6 style=" display: none" class="text-uppercase text-dark mb-3">
+                    <a href="sitemap.html">Sitemap</a>
+                </h6>
+
+                <h6 style=" display: inherit" class="text-uppercase text-dark mb-3">
+                    <a href="contact.html">Contact Us!</a>
+                </h6>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer-->
+<footer class="py-5 bg-dark text-center">
+    
+    <div class="container mb-4"><p class="m-0 text-center ">
+        <span class="navbar-brand" ><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></span>
+        <span class="navbar-brand">t-500</span>
+    </p></div>
+    <ul class="list-inline mb-4" style="display: none">
+        <li class="list-inline-item" style="display: none">
+            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item"  style="display: none">
+            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a>
+        </li>
+    </ul>
+    <div class="container"><p class="m-0 text-center">Copyright &copy; t-500. All rights reserved.</p></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<script>
+    const url = window.location.href;
+    let domain = (new URL(url));
+    let hostname = domain.hostname;
+    let pathname = domain.pathname.split('/');
+    let protocol = domain.protocol;
+     let domain_url =  protocol +'//'+hostname+'/';
+    if(pathname.length > 2){
+        domain_url =  domain_url +pathname.slice(1,pathname.length - 1).join('/')+'/'+document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }else{
+        domain_url =  domain_url +document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }
+    document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
+</script>
+</body>
+</html>
